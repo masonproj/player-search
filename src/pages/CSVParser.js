@@ -9,13 +9,15 @@ const CSVParser = () => {
   const [filteredFirstNames, setFilteredFirstNames] = useState([]);
   const [filteredLastNames, setFilteredLastNames] = useState([]);
   const [teamOptionsList, setTeamOptionsList] = useState([]);
-  const [firstName, setFirstName] = useState('');
+  const [firstName, setFirstName] = useState(''); // Store the current input of the first name field
   const [firstNames, setFirstNames] = useState([]);
   const [lastNames, setLastNames] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [loadingTeamOptions, setLoadingTeamOptions] = useState(true);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch('players.csv');
+  const fetchData = async () => {
+    try {
+      const response = await fetch('player-search/players.csv');
       const reader = response.body.getReader();
       const result = await reader.read();
       const decoder = new TextDecoder('utf-8');
@@ -47,8 +49,17 @@ const CSVParser = () => {
       setNamePairs(namePairs);
       setTeamOptionsList(teamOptionsList);
       setCSVData(data);
-    };
+      setLoading(false);
+      setLoadingTeamOptions(false);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      setLoading(false);
+      setLoadingTeamOptions(false);
+      // Handle the error state here (e.g., display an error message)
+    }
+  };
 
+  useEffect(() => {
     fetchData();
   }, []);
 
@@ -64,10 +75,7 @@ const CSVParser = () => {
   const handleLastNameChange = (event) => {
     const lastName = event.target.value.trim().toLowerCase();
     const filteredLastNames = namePairs
-      .filter(
-        (namePair) =>
-          namePair.firstName.toLowerCase() === firstName.toLowerCase()
-      )
+      .filter((namePair) => namePair.firstName.toLowerCase() === firstName.toLowerCase())
       .map((namePair) => namePair.lastName)
       .filter((name) => name.toLowerCase().startsWith(lastName));
     setFilteredLastNames(filteredLastNames);
@@ -94,9 +102,7 @@ const CSVParser = () => {
     }
     const filteredResult = csvData.filter((row) => {
       const teamNames = selectedTeams.map((team) => team.toLowerCase());
-      const playerTeams = row.TEAMS
-        ? row.TEAMS.toLowerCase().split(/,\s*/)
-        : [];
+      const playerTeams = row.TEAMS ? row.TEAMS.toLowerCase().split(/,\s*/) : [];
       return teamNames.every((team) => playerTeams.includes(team));
     });
     setFilteredData(filteredResult);
@@ -105,10 +111,7 @@ const CSVParser = () => {
   const handleTeamSelection = (event) => {
     const selectedTeam = event.target.value;
     if (event.target.checked) {
-      setSelectedTeams((prevSelectedTeams) => [
-        ...prevSelectedTeams,
-        selectedTeam,
-      ]);
+      setSelectedTeams((prevSelectedTeams) => [...prevSelectedTeams, selectedTeam]);
     } else {
       setSelectedTeams((prevSelectedTeams) =>
         prevSelectedTeams.filter((team) => team !== selectedTeam)
@@ -118,71 +121,77 @@ const CSVParser = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4 text-center">Player Team Search</h1>
+      <h1 className="text-3xl font-bold mb-4">Player Team Search</h1>
 
-      {csvData.length > 0 && (
-        <div>
+      {loading ? (
+        <p>Loading...</p>
+      ) : (
+        <>
           <h2 className="text-2xl font-bold mb-2">Filter by Player Name</h2>
           <form onSubmit={handleFilterByPlayer} className="mb-4">
-            <div className="flex flex-col sm:flex-row">
+            <div className="flex">
               <input
                 type="text"
                 name="firstName"
                 placeholder="First Name"
-                className="px-4 py-2 border rounded mb-2 sm:mb-0 sm:mr-2"
+                className="px-4 py-2 border rounded-l"
                 list="firstNamesList"
                 onChange={handleFirstNameChange}
               />
+              <datalist id="firstNamesList">
+                {filteredFirstNames.map((name, index) => (
+                  <option key={index} value={name} />
+                ))}
+              </datalist>
               <input
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
-                className="px-4 py-2 border rounded"
+                className="px-4 py-2 border rounded-r"
                 list="lastNamesList"
                 onChange={handleLastNameChange}
               />
+              <datalist id="lastNamesList">
+                {filteredLastNames.map((name, index) => (
+                  <option key={index} value={name} />
+                ))}
+              </datalist>
               <button
                 type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded mt-2 sm:mt-0"
+                className="ml-2 bg-blue-500 text-white px-4 py-2 rounded"
               >
                 Filter
               </button>
             </div>
-            <datalist id="firstNamesList">
-              {filteredFirstNames.map((name, index) => (
-                <option key={index} value={name} />
-              ))}
-            </datalist>
-            <datalist id="lastNamesList">
-              {filteredLastNames.map((name, index) => (
-                <option key={index} value={name} />
-              ))}
-            </datalist>
           </form>
 
           <h2 className="text-2xl font-bold mb-2">Filter by Team Name</h2>
-          <form onSubmit={handleFilterByTeam} className="mb-4">
-            <div className="flex flex-wrap">
-              {teamOptionsList.map((team, index) => (
-                <div key={index} className="mr-4 mb-2">
-                  <input
-                    type="checkbox"
-                    id={team}
-                    value={team}
-                    onChange={handleTeamSelection}
-                    className="mr-2"
-                  />
-                  <label htmlFor={team}>{team}</label>
-                </div>
-              ))}
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded"
-            >
-              Filter
-            </button>
-          </form>
+          {!loadingTeamOptions && teamOptionsList.length > 0 ? (
+            <form onSubmit={handleFilterByTeam} className="mb-4">
+              <div className="flex flex-wrap">
+                {teamOptionsList.map((team, index) => (
+                  <div key={index} className="mr-4 mb-2">
+                    <input
+                      type="checkbox"
+                      id={team}
+                      value={team}
+                      onChange={handleTeamSelection}
+                      className="mr-2"
+                    />
+                    <label htmlFor={team}>{team}</label>
+                  </div>
+                ))}
+              </div>
+              <button
+                type="submit"
+                className="bg-blue-500 text-white px-4 py-2 rounded"
+              >
+                Filter
+              </button>
+            </form>
+          ) : (
+            <p>No teams available</p>
+          )}
 
           {filteredData.length > 0 && (
             <div>
@@ -196,7 +205,7 @@ const CSVParser = () => {
               </ul>
             </div>
           )}
-        </div>
+        </>
       )}
     </div>
   );
