@@ -8,12 +8,70 @@ const CSVParser = () => {
   const [namePairs, setNamePairs] = useState([]);
   const [filteredFirstNames, setFilteredFirstNames] = useState([]);
   const [filteredLastNames, setFilteredLastNames] = useState([]);
-  const [teamOptionsList, setTeamOptionsList] = useState([]);
-  const [firstName, setFirstName] = useState(''); // Store the current input of the first name field
+  const [teamOptionsList, setTeamOptionsList] = useState([
+    'Washington Capitals',
+    'Dallas Stars',
+    'Buffalo Sabres',
+    'Toronto St. Patricks',
+    'Toronto Maple Leafs',
+    'Hartford Whalers',
+    'Los Angeles Kings',
+    'New York Americans',
+    'Florida Panthers',
+    'Minnesota North Stars',
+    'Winnipeg Jets (1979)',
+    'Detroit Cougars',
+    'Anaheim Ducks',
+    'Philadelphia Flyers',
+    'Cleveland Barons',
+    'Pittsburgh Penguins',
+    'Detroit Falcons',
+    'St. Louis Blues',
+    'California Golden Seals',
+    'Kansas City Scouts',
+    'New Jersey Devils',
+    'Philadelphia Quakers',
+    'Hamilton Tigers',
+    'Colorado Avalanche',
+    'Carolina Hurricanes',
+    'Minnesota Wild',
+    'Arizona Coyotes',
+    'New York Rangers',
+    'Brooklyn Americans',
+    'Boston Bruins',
+    'Edmonton Oilers',
+    'Detroit Red Wings',
+    'Atlanta Thrashers',
+    'Quebec Bulldogs',
+    'Vegas Golden Knights',
+    'Vancouver Canucks',
+    'Colorado Rockies',
+    'Toronto Arenas',
+    'Oakland Seals',
+    'Nashville Predators',
+    'Montréal Canadiens',
+    'Phoenix Coyotes',
+    'Montreal Maroons',
+    'Chicago Blackhawks',
+    'Ottawa Senators (1917)',
+    'Quebec Nordiques',
+    'Columbus Blue Jackets',
+    'Winnipeg Jets',
+    'Montreal Wanderers',
+    'St. Louis Eagles',
+    'Ottawa Senators',
+    'Seattle Kraken',
+    'Calgary Flames',
+    'Atlanta Flames',
+    'San Jose Sharks',
+    'Pittsburgh Pirates',
+    'Tampa Bay Lightning',
+    'New York Islanders',
+  ]);
+  const [firstName, setFirstName] = useState('');
   const [firstNames, setFirstNames] = useState([]);
   const [lastNames, setLastNames] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [loadingTeamOptions, setLoadingTeamOptions] = useState(true);
 
   const fetchData = async () => {
     try {
@@ -42,19 +100,15 @@ const CSVParser = () => {
 
       const firstNames = Array.from(firstNamesSet);
       const lastNames = Array.from(lastNamesSet);
-      const teamOptionsList = Array.from(teamsSet).sort();
 
       setFirstNames(firstNames);
       setLastNames(lastNames);
       setNamePairs(namePairs);
-      setTeamOptionsList(teamOptionsList);
       setCSVData(data);
       setLoading(false);
-      setLoadingTeamOptions(false);
     } catch (error) {
       console.error('Error fetching data:', error);
       setLoading(false);
-      setLoadingTeamOptions(false);
       // Handle the error state here (e.g., display an error message)
     }
   };
@@ -166,7 +220,7 @@ const CSVParser = () => {
           </form>
 
           <h2 className="text-2xl font-bold mb-2">Filter by Team Name</h2>
-          {!loadingTeamOptions && teamOptionsList.length > 0 ? (
+          {teamOptionsList.length > 0 ? (
             <form onSubmit={handleFilterByTeam} className="mb-4">
               <div className="flex flex-wrap">
                 {teamOptionsList.map((team, index) => (
