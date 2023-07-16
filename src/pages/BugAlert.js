@@ -26,7 +26,7 @@ const BugAlert = () => {
               clipRule="evenodd"
             />
           </svg>
-          <span className="font-bold">Important:</span> This site is currently in a buggy or experimental state.
+          <span>This site is currently in a buggy or experimental state.</span>
         </div>
         <button
           className="text-red-600 hover:text-red-800 font-semibold focus:outline-none"

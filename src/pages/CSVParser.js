@@ -9,10 +9,9 @@ const CSVParser = () => {
   const [filteredFirstNames, setFilteredFirstNames] = useState([]);
   const [filteredLastNames, setFilteredLastNames] = useState([]);
   const [teamOptionsList, setTeamOptionsList] = useState([]);
-  const [firstName, setFirstName] = useState(''); // Store the current input of the first name field
+  const [firstName, setFirstName] = useState('');
   const [firstNames, setFirstNames] = useState([]);
   const [lastNames, setLastNames] = useState([]);
-
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,57 +26,58 @@ const CSVParser = () => {
       const lastNamesSet = new Set();
       const namePairs = [];
       const teamsSet = new Set();
-  
+
       for (const row of data) {
         firstNamesSet.add(row.FIRST_NAME);
         lastNamesSet.add(row.LAST_NAME);
-        namePairs.push({firstName: row.FIRST_NAME, lastName: row.LAST_NAME});
-  
+        namePairs.push({ firstName: row.FIRST_NAME, lastName: row.LAST_NAME });
+
         if (row.TEAMS) {
           const teams = row.TEAMS.split(',').map((team) => team.trim());
           teams.forEach((team) => teamsSet.add(team));
         }
       }
-  
+
       const firstNames = Array.from(firstNamesSet);
       const lastNames = Array.from(lastNamesSet);
       const teamOptionsList = Array.from(teamsSet).sort();
-  
+
       setFirstNames(firstNames);
       setLastNames(lastNames);
       setNamePairs(namePairs);
       setTeamOptionsList(teamOptionsList);
       setCSVData(data);
     };
-  
+
     fetchData();
   }, []);
 
   const handleFirstNameChange = (event) => {
     const firstName = event.target.value.trim().toLowerCase();
-    setFirstName(firstName);  // Update the current input of the first name field
+    setFirstName(firstName);
     const filteredFirstNames = firstNames.filter((name) =>
       name.toLowerCase().startsWith(firstName)
     );
     setFilteredFirstNames(filteredFirstNames);
   };
-  
+
   const handleLastNameChange = (event) => {
     const lastName = event.target.value.trim().toLowerCase();
-    const filteredLastNames = namePairs.filter((namePair) =>
-      namePair.firstName.toLowerCase() === firstName.toLowerCase()
-    ).map(namePair => namePair.lastName).filter((name) =>
-      name.toLowerCase().startsWith(lastName)
-    );
+    const filteredLastNames = namePairs
+      .filter(
+        (namePair) =>
+          namePair.firstName.toLowerCase() === firstName.toLowerCase()
+      )
+      .map((namePair) => namePair.lastName)
+      .filter((name) => name.toLowerCase().startsWith(lastName));
     setFilteredLastNames(filteredLastNames);
   };
-  
 
   const handleFilterByPlayer = (event) => {
     event.preventDefault();
     const firstName = event.target.firstName.value.trim();
     const lastName = event.target.lastName.value.trim();
-  
+
     const filteredResult = csvData.filter(
       (row) =>
         row.FIRST_NAME.toLowerCase() === firstName.toLowerCase() &&
@@ -85,7 +85,7 @@ const CSVParser = () => {
     );
     setFilteredData(filteredResult);
   };
-  
+
   const handleFilterByTeam = (event) => {
     event.preventDefault();
     if (selectedTeams.length === 0) {
@@ -94,13 +94,13 @@ const CSVParser = () => {
     }
     const filteredResult = csvData.filter((row) => {
       const teamNames = selectedTeams.map((team) => team.toLowerCase());
-      const playerTeams = row.TEAMS ? row.TEAMS.toLowerCase().split(/,\s*/) : [];
+      const playerTeams = row.TEAMS
+        ? row.TEAMS.toLowerCase().split(/,\s*/)
+        : [];
       return teamNames.every((team) => playerTeams.includes(team));
     });
     setFilteredData(filteredResult);
   };
-  
-  
 
   const handleTeamSelection = (event) => {
     const selectedTeam = event.target.value;
@@ -118,46 +118,46 @@ const CSVParser = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Player Team Search</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">Player Team Search</h1>
 
       {csvData.length > 0 && (
         <div>
           <h2 className="text-2xl font-bold mb-2">Filter by Player Name</h2>
           <form onSubmit={handleFilterByPlayer} className="mb-4">
-            <div className="flex">
+            <div className="flex flex-col sm:flex-row">
               <input
                 type="text"
                 name="firstName"
                 placeholder="First Name"
-                className="px-4 py-2 border rounded-l"
+                className="px-4 py-2 border rounded mb-2 sm:mb-0 sm:mr-2"
                 list="firstNamesList"
                 onChange={handleFirstNameChange}
               />
-              <datalist id="firstNamesList">
-                {filteredFirstNames.map((name, index) => (
-                  <option key={index} value={name} />
-                ))}
-              </datalist>
               <input
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
-                className="px-4 py-2 border rounded-r"
+                className="px-4 py-2 border rounded"
                 list="lastNamesList"
                 onChange={handleLastNameChange}
               />
-              <datalist id="lastNamesList">
-                {filteredLastNames.map((name, index) => (
-                  <option key={index} value={name} />
-                ))}
-              </datalist>
               <button
                 type="submit"
-                className="ml-2 bg-blue-500 text-white px-4 py-2 rounded"
+                className="bg-blue-500 text-white px-4 py-2 rounded mt-2 sm:mt-0"
               >
                 Filter
               </button>
             </div>
+            <datalist id="firstNamesList">
+              {filteredFirstNames.map((name, index) => (
+                <option key={index} value={name} />
+              ))}
+            </datalist>
+            <datalist id="lastNamesList">
+              {filteredLastNames.map((name, index) => (
+                <option key={index} value={name} />
+              ))}
+            </datalist>
           </form>
 
           <h2 className="text-2xl font-bold mb-2">Filter by Team Name</h2>
@@ -185,18 +185,17 @@ const CSVParser = () => {
           </form>
 
           {filteredData.length > 0 && (
-  <div>
-    <h2 className="text-2xl font-bold mb-2">Filtered Results:</h2>
-    <ul className="list-disc ml-8">
-      {filteredData.map((row, index) => (
-        <li key={index}>
-          {`${row.FIRST_NAME} ${row.LAST_NAME} - ${row.TEAMS}`}
-        </li>
-      ))}
-    </ul>
-  </div>
-)}
-
+            <div>
+              <h2 className="text-2xl font-bold mb-2">Filtered Results:</h2>
+              <ul className="list-disc ml-8">
+                {filteredData.map((row, index) => (
+                  <li key={index}>
+                    {`${row.FIRST_NAME} ${row.LAST_NAME} - ${row.TEAMS}`}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       )}
     </div>
