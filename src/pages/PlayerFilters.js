@@ -13,32 +13,38 @@ const PlayerFilters = ({ csvData, setCSVData }) => {
   const [namePairs, setNamePairs] = useState([]);
 
   useEffect(() => {
-    const firstNamesSet = new Set();
-    const lastNamesSet = new Set();
-    const namePairs = [];
-    const teamsSet = new Set();
-
-    for (const row of csvData) {
-      firstNamesSet.add(row.FIRST_NAME);
-      lastNamesSet.add(row.LAST_NAME);
-      namePairs.push({ firstName: row.FIRST_NAME, lastName: row.LAST_NAME });
-
-      if (row.TEAMS) {
-        const teams = row.TEAMS.split(',').map((team) => team.trim());
-        teams.forEach((team) => teamsSet.add(team));
-      }
-    }
-
-    const firstNames = Array.from(firstNamesSet);
-    const lastNames = Array.from(lastNamesSet);
-    const teamOptionsList = Array.from(teamsSet).sort();
-
-    setFirstNames(firstNames);
-    setLastNames(lastNames);
-    setNamePairs(namePairs);
-    setTeamOptionsList(teamOptionsList);
-    setFilteredData([]);
-  }, [csvData]);
+	const firstNamesSet = new Set();
+	const lastNamesSet = new Set();
+	const namePairs = [];
+	const teamsSet = new Set();
+  
+	for (const row of csvData) {
+	  firstNamesSet.add(row.FIRST_NAME);
+	  lastNamesSet.add(row.LAST_NAME);
+	  namePairs.push({ firstName: row.FIRST_NAME, lastName: row.LAST_NAME });
+  
+	  if (row.TEAMS) {
+		const teams = row.TEAMS.split(',').map((team) => team.trim());
+		teams.forEach((team) => teamsSet.add(team));
+	  }
+	}
+  
+	const firstNames = Array.from(firstNamesSet);
+	const lastNames = Array.from(lastNamesSet);
+	const teamOptionsList = Array.from(teamsSet).sort();
+  
+	setFirstNames(firstNames);
+	setLastNames(lastNames);
+	setNamePairs(namePairs);
+	setTeamOptionsList(teamOptionsList);
+	setFilteredData([]);
+  
+	// If there aren't 58 teams, fetch the CSV data again
+	if (teamOptionsList.length !== 58) {
+	  setCSVData([]);
+	}
+  }, [csvData, setCSVData]);
+  
 
   const handleFirstNameChange = (event) => {
     const firstName = event.target.value.trim().toLowerCase();
