@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Table from './Table';
+import Table from '../components/Table';
 
 const PlayerFilters = ({ csvData, setCSVData }) => {
   const [filteredData, setFilteredData] = useState([]);
