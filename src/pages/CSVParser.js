@@ -12,45 +12,64 @@ const CSVParser = () => {
   const [firstName, setFirstName] = useState('');
   const [firstNames, setFirstNames] = useState([]);
   const [lastNames, setLastNames] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [parseAttempts, setParseAttempts] = useState(0); // Counter for parse attempts
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('players.csv');
-      const reader = response.body.getReader();
-      const result = await reader.read();
-      const decoder = new TextDecoder('utf-8');
-      const csvString = decoder.decode(result.value);
-      const { data } = Papa.parse(csvString, { header: true });
+      setIsLoading(true);
+      if (csvData.length === 0) {
+        // Download the CSV file only if it hasn't been loaded before
+        try {
+          const response = await fetch(`players.csv`);
+          const reader = response.body.getReader();
+          const result = await reader.read();
+          const decoder = new TextDecoder('utf-8');
+          const csvString = decoder.decode(result.value);
+          const { data } = Papa.parse(csvString, { header: true });
 
-      const firstNamesSet = new Set();
-      const lastNamesSet = new Set();
-      const namePairs = [];
-      const teamsSet = new Set();
+          const firstNamesSet = new Set();
+          const lastNamesSet = new Set();
+          const namePairs = [];
+          const teamsSet = new Set();
 
-      for (const row of data) {
-        firstNamesSet.add(row.FIRST_NAME);
-        lastNamesSet.add(row.LAST_NAME);
-        namePairs.push({ firstName: row.FIRST_NAME, lastName: row.LAST_NAME });
+          for (const row of data) {
+            firstNamesSet.add(row.FIRST_NAME);
+            lastNamesSet.add(row.LAST_NAME);
+            namePairs.push({ firstName: row.FIRST_NAME, lastName: row.LAST_NAME });
 
-        if (row.TEAMS) {
-          const teams = row.TEAMS.split(',').map((team) => team.trim());
-          teams.forEach((team) => teamsSet.add(team));
+            if (row.TEAMS) {
+              const teams = row.TEAMS.split(',').map((team) => team.trim());
+              teams.forEach((team) => teamsSet.add(team));
+            }
+          }
+
+          const firstNames = Array.from(firstNamesSet);
+          const lastNames = Array.from(lastNamesSet);
+          const teamOptionsList = Array.from(teamsSet).sort();
+
+          if (teamOptionsList.length !== 58) {
+            console.log('Incorrect number of teams. Re-parsing data...');
+            setParseAttempts((prevAttempts) => prevAttempts + 1); // Increment parse attempts
+          } else {
+            setFirstNames(firstNames);
+            setLastNames(lastNames);
+            setNamePairs(namePairs);
+            setTeamOptionsList(teamOptionsList);
+            setCSVData(data);
+            setFilteredData([]); // Reset filteredData to empty array
+            setParseAttempts(0); // Reset parse attempts counter
+          }
+        } catch (error) {
+          console.error('Failed to fetch CSV data:', error);
         }
       }
 
-      const firstNames = Array.from(firstNamesSet);
-      const lastNames = Array.from(lastNamesSet);
-      const teamOptionsList = Array.from(teamsSet).sort();
-
-      setFirstNames(firstNames);
-      setLastNames(lastNames);
-      setNamePairs(namePairs);
-      setTeamOptionsList(teamOptionsList);
-      setCSVData(data);
+      setIsLoading(false);
     };
 
     fetchData();
-  }, []);
+  }, [csvData, parseAttempts]);
 
   const handleFirstNameChange = (event) => {
     const firstName = event.target.value.trim().toLowerCase();
@@ -59,6 +78,11 @@ const CSVParser = () => {
       name.toLowerCase().startsWith(firstName)
     );
     setFilteredFirstNames(filteredFirstNames);
+
+    const filteredResult = csvData.filter((row) =>
+      row.FIRST_NAME.toLowerCase().startsWith(firstName)
+    );
+    setFilteredData(filteredResult);
   };
 
   const handleLastNameChange = (event) => {
@@ -71,36 +95,28 @@ const CSVParser = () => {
       .map((namePair) => namePair.lastName)
       .filter((name) => name.toLowerCase().startsWith(lastName));
     setFilteredLastNames(filteredLastNames);
-  };
-
-  const handleFilterByPlayer = (event) => {
-    event.preventDefault();
-    const firstName = event.target.firstName.value.trim();
-    const lastName = event.target.lastName.value.trim();
 
     const filteredResult = csvData.filter(
       (row) =>
         row.FIRST_NAME.toLowerCase() === firstName.toLowerCase() &&
-        row.LAST_NAME.toLowerCase() === lastName.toLowerCase()
+        row.LAST_NAME.toLowerCase().startsWith(lastName)
     );
     setFilteredData(filteredResult);
   };
 
-  const handleFilterByTeam = (event) => {
-    event.preventDefault();
-    if (selectedTeams.length === 0) {
-      setFilteredData([]);
-      return;
-    }
-    const filteredResult = csvData.filter((row) => {
-      const teamNames = selectedTeams.map((team) => team.toLowerCase());
-      const playerTeams = row.TEAMS
-        ? row.TEAMS.toLowerCase().split(/,\s*/)
-        : [];
-      return teamNames.every((team) => playerTeams.includes(team));
-    });
+  useEffect(() => {
+    const filteredResult =
+      selectedTeams.length > 0
+        ? csvData.filter((row) => {
+            const teamNames = selectedTeams.map((team) => team.toLowerCase());
+            const playerTeams = row.TEAMS
+              ? row.TEAMS.toLowerCase().split(/,\s*/)
+              : [];
+            return teamNames.every((team) => playerTeams.includes(team));
+          })
+        : []; // Set filteredResult as empty array when no teams are selected
     setFilteredData(filteredResult);
-  };
+  }, [csvData, selectedTeams]);
 
   const handleTeamSelection = (event) => {
     const selectedTeam = event.target.value;
@@ -120,10 +136,14 @@ const CSVParser = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4 text-center">Player Team Search</h1>
 
-      {csvData.length > 0 && (
+      {isLoading ? (
+        <div className="flex justify-center items-center h-64">
+          <p className="text-gray-600 text-lg">Loading...</p>
+        </div>
+      ) : (
         <div>
           <h2 className="text-2xl font-bold mb-2">Filter by Player Name</h2>
-          <form onSubmit={handleFilterByPlayer} className="mb-4">
+          <form className="mb-4">
             <div className="flex flex-col sm:flex-row">
               <input
                 type="text"
@@ -141,12 +161,6 @@ const CSVParser = () => {
                 list="lastNamesList"
                 onChange={handleLastNameChange}
               />
-              <button
-                type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded mt-2 sm:mt-0"
-              >
-                Filter
-              </button>
             </div>
             <datalist id="firstNamesList">
               {filteredFirstNames.map((name, index) => (
@@ -161,30 +175,22 @@ const CSVParser = () => {
           </form>
 
           <h2 className="text-2xl font-bold mb-2">Filter by Team Name</h2>
-          <form onSubmit={handleFilterByTeam} className="mb-4">
-            <div className="flex flex-wrap">
-              {teamOptionsList.map((team, index) => (
-                <div key={index} className="mr-4 mb-2">
-                  <input
-                    type="checkbox"
-                    id={team}
-                    value={team}
-                    onChange={handleTeamSelection}
-                    className="mr-2"
-                  />
-                  <label htmlFor={team}>{team}</label>
-                </div>
-              ))}
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded"
-            >
-              Filter
-            </button>
-          </form>
+          <div className="flex flex-wrap">
+            {teamOptionsList.map((team, index) => (
+              <label key={index} className="flex items-center mr-4 mb-2">
+                <input
+                  type="checkbox"
+                  name="team"
+                  value={team}
+                  className="mr-2"
+                  onChange={handleTeamSelection}
+                />
+                {team}
+              </label>
+            ))}
+          </div>
 
-          {filteredData.length > 0 && (
+          {(selectedTeams.length > 0 || firstName || filteredData.length > 0) ? (
             <div>
               <h2 className="text-2xl font-bold mb-2">Filtered Results:</h2>
               <ul className="list-disc ml-8">
@@ -195,7 +201,7 @@ const CSVParser = () => {
                 ))}
               </ul>
             </div>
-          )}
+          ) : null}
         </div>
       )}
     </div>
