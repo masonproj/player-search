@@ -1,10 +1,16 @@
-// src/pages/index.js
-
+//index.js
 import React from 'react';
-import HomePage from './HomePage';
+import CSVParser from '../pages/CSVParser';
+import BugAlert from './BugAlert';
 
-const IndexPage = () => {
-  return <HomePage />;
+const HomePage = () => {
+  const title = 'Player Search';
+  return (
+    <div>
+      <BugAlert />
+      <CSVParser />
+    </div>
+  );
 };
 
-export default IndexPage;
+export default HomePage;
