@@ -5692,7 +5692,7 @@ Kari,Lehtonen,"Atlanta Thrashers, Dallas Stars"
 Allan,Rourke,"Carolina Hurricanes, New York Islanders, Edmonton Oilers"
 Brett,Lysak,Carolina Hurricanes
 Brad,Fast,Carolina Hurricanes
-Eric,Staal,"Carolina Hurricanes, New York Rangers, Minnesota Wild, Buffalo Sabres, Montréal Canadiens"
+Eric,Staal,"Carolina Hurricanes, New York Rangers, Minnesota Wild, Buffalo Sabres, Montréal Canadiens, Florida Panthers"
 Josh,Olson,Florida Panthers
 Grant,McNeill,Florida Panthers
 Gregory,Campbell,"Florida Panthers, Boston Bruins, Columbus Blue Jackets"
@@ -5789,7 +5789,7 @@ Nikolay,Zherdev,"Columbus Blue Jackets, New York Rangers, Philadelphia Flyers"
 Dan,Fritsche,"Columbus Blue Jackets, New York Rangers, Minnesota Wild"
 Zbynek,Michalek,"Minnesota Wild, Phoenix Coyotes, Pittsburgh Penguins, St. Louis Blues, Arizona Coyotes"
 Christoph,Brandner,Minnesota Wild
-Brent,Burns,"Minnesota Wild, San Jose Sharks"
+Brent,Burns,"Minnesota Wild, San Jose Sharks, Carolina Hurricanes"
 Jason,Ryznar,New Jersey Devils
 Cam,Janssen,"New Jersey Devils, St. Louis Blues"
 Barry,Tallackson,New Jersey Devils
@@ -6026,7 +6026,7 @@ David,Krejci,Boston Bruins
 Matt,Lashoff,"Boston Bruins, Tampa Bay Lightning, Toronto Maple Leafs"
 Petr,Kalus,"Boston Bruins, Minnesota Wild"
 Jonathan,Sigalet,Boston Bruins
-Phil,Kessel,"Boston Bruins, Toronto Maple Leafs, Pittsburgh Penguins, Arizona Coyotes"
+Phil,Kessel,"Boston Bruins, Toronto Maple Leafs, Pittsburgh Penguins, Arizona Coyotes, Vegas Golden Knights"
 Joey,MacDonald,"Boston Bruins, Detroit Red Wings, New York Islanders, Toronto Maple Leafs, Calgary Flames"
 Michael,Ryan,"Buffalo Sabres, Carolina Hurricanes"
 Clarke,MacArthur,"Buffalo Sabres, Atlanta Thrashers, Toronto Maple Leafs, Ottawa Senators"
@@ -6039,7 +6039,7 @@ Mike,Card,Buffalo Sabres
 Duncan,Milroy,Montréal Canadiens
 Mikhail,Grabovski,"Montréal Canadiens, Toronto Maple Leafs, Washington Capitals, New York Islanders"
 Guillaume,Latendresse,"Montréal Canadiens, Minnesota Wild, Ottawa Senators"
-Jaroslav,Halak,"Montréal Canadiens, St. Louis Blues, Washington Capitals, New York Islanders, Boston Bruins, Vancouver Canucks"
+Jaroslav,Halak,"Montréal Canadiens, St. Louis Blues, Washington Capitals, New York Islanders, Boston Bruins, Vancouver Canucks, New York Rangers"
 Danny,Bois,Ottawa Senators
 Alexei,Kaigorodov,Ottawa Senators
 Josh,Hennessy,"Ottawa Senators, Boston Bruins"
@@ -6078,7 +6078,7 @@ David,Moss,"Calgary Flames, Phoenix Coyotes, Arizona Coyotes"
 Brandon,Prust,"Calgary Flames, Phoenix Coyotes, New York Rangers, Montréal Canadiens, Vancouver Canucks"
 Dustin,Boyd,"Calgary Flames, Nashville Predators, Montréal Canadiens"
 Jeff,Finger,"Colorado Avalanche, Toronto Maple Leafs"
-Paul,Stastny,"Colorado Avalanche, St. Louis Blues, Winnipeg Jets, Vegas Golden Knights"
+Paul,Stastny,"Colorado Avalanche, St. Louis Blues, Winnipeg Jets, Vegas Golden Knights, Carolina Hurricanes"
 Kyle,Cumiskey,"Colorado Avalanche, Chicago Blackhawks"
 Alexei,Mikhnov,Edmonton Oilers
 Tom,Gilbert,"Edmonton Oilers, Minnesota Wild, Florida Panthers, Montréal Canadiens, Los Angeles Kings"
@@ -6114,7 +6114,7 @@ Shay,Stephenson,Los Angeles Kings
 John,Zeiler,Los Angeles Kings
 Patrick,O'Sullivan,"Los Angeles Kings, Edmonton Oilers, Carolina Hurricanes, Minnesota Wild, Phoenix Coyotes"
 Lauri,Tukonen,Los Angeles Kings
-Jack,Johnson,"Los Angeles Kings, Columbus Blue Jackets, Pittsburgh Penguins, New York Rangers, Colorado Avalanche"
+Jack,Johnson,"Los Angeles Kings, Columbus Blue Jackets, Pittsburgh Penguins, New York Rangers, Colorado Avalanche, Chicago Blackhawks"
 Anze,Kopitar,Los Angeles Kings
 Peter,Harrold,"Los Angeles Kings, New Jersey Devils"
 Gabe,Gauthier,Los Angeles Kings
@@ -6143,10 +6143,10 @@ Jack,Hillen,"New York Islanders, Nashville Predators, Washington Capitals, Carol
 Ivan,Baranka,New York Rangers
 Greg,Moore,"New York Rangers, Columbus Blue Jackets"
 Dane,Byers,"New York Rangers, Columbus Blue Jackets"
-Marc,Staal,"New York Rangers, Detroit Red Wings"
+Marc,Staal,"New York Rangers, Detroit Red Wings, Florida Panthers"
 Lauri,Korpikoski,"New York Rangers, Phoenix Coyotes, Arizona Coyotes, Edmonton Oilers, Dallas Stars, Columbus Blue Jackets"
 Steve,Downie,"Philadelphia Flyers, Tampa Bay Lightning, Colorado Avalanche, Pittsburgh Penguins, Arizona Coyotes"
-Claude,Giroux,"Philadelphia Flyers, Florida Panthers"
+Claude,Giroux,"Philadelphia Flyers, Florida Panthers, Ottawa Senators"
 Denis,Tolpeko,Philadelphia Flyers
 Kyle,Greentree,"Philadelphia Flyers, Calgary Flames"
 Chris,Minard,"Pittsburgh Penguins, Edmonton Oilers"
@@ -6177,7 +6177,7 @@ Jesse,Winchester,"Ottawa Senators, Florida Panthers"
 Brian,Elliott,"Ottawa Senators, Colorado Avalanche, St. Louis Blues, Calgary Flames, Philadelphia Flyers, Tampa Bay Lightning"
 Darryl,Boyce,"Toronto Maple Leafs, Columbus Blue Jackets"
 Robbie,Earl,"Toronto Maple Leafs, Minnesota Wild"
-Anton,Stralman,"Toronto Maple Leafs, Columbus Blue Jackets, New York Rangers, Tampa Bay Lightning, Florida Panthers, Arizona Coyotes"
+Anton,Stralman,"Toronto Maple Leafs, Columbus Blue Jackets, New York Rangers, Tampa Bay Lightning, Florida Panthers, Arizona Coyotes, Boston Bruins"
 Alex,Foster,Toronto Maple Leafs
 Jiri,Tlusty,"Toronto Maple Leafs, Carolina Hurricanes, Winnipeg Jets, New Jersey Devils"
 Colin,Stuart,"Atlanta Thrashers, Buffalo Sabres"
@@ -6212,7 +6212,7 @@ Jack,Skille,"Chicago Blackhawks, Florida Panthers, Columbus Blue Jackets, Colora
 Niklas,Hjalmarsson,"Chicago Blackhawks, Arizona Coyotes"
 Jordan,Hendry,"Chicago Blackhawks, Anaheim Ducks"
 Jonathan,Toews,Chicago Blackhawks
-Patrick,Kane,Chicago Blackhawks
+Patrick,Kane,"Chicago Blackhawks, New York Rangers"
 Jonathan,Ericsson,Detroit Red Wings
 Garrett,Stafford,"Detroit Red Wings, Dallas Stars, Phoenix Coyotes"
 Mattias,Ritola,"Detroit Red Wings, Tampa Bay Lightning"
@@ -6222,7 +6222,7 @@ Ville,Koistinen,"Nashville Predators, Florida Panthers"
 Antti,Pihlstrom,Nashville Predators
 Erik,Johnson,"St. Louis Blues, Colorado Avalanche"
 Steve,Wagner,St. Louis Blues
-David,Perron,"St. Louis Blues, Edmonton Oilers, Pittsburgh Penguins, Anaheim Ducks, Vegas Golden Knights"
+David,Perron,"St. Louis Blues, Edmonton Oilers, Pittsburgh Penguins, Anaheim Ducks, Vegas Golden Knights, Detroit Red Wings"
 Chris,Beckford-Tseu,St. Louis Blues
 Tim,Ramholt,Calgary Flames
 Curtis,McElhinney,"Calgary Flames, Anaheim Ducks, Ottawa Senators, Phoenix Coyotes, Columbus Blue Jackets, Toronto Maple Leafs, Carolina Hurricanes, Tampa Bay Lightning"
@@ -6236,7 +6236,7 @@ Tyler,Weiman,Colorado Avalanche
 Liam,Reddox,Edmonton Oilers
 Andrew,Cogliano,"Edmonton Oilers, Anaheim Ducks, Dallas Stars, Colorado Avalanche, San Jose Sharks"
 Theo,Peckham,Edmonton Oilers
-Sam,Gagner,"Edmonton Oilers, Arizona Coyotes, Philadelphia Flyers, Columbus Blue Jackets, Vancouver Canucks, Detroit Red Wings"
+Sam,Gagner,"Edmonton Oilers, Arizona Coyotes, Philadelphia Flyers, Columbus Blue Jackets, Vancouver Canucks, Detroit Red Wings, Winnipeg Jets"
 Jason,Jaffray,"Vancouver Canucks, Calgary Flames, Winnipeg Jets"
 Zack,Fitzgerald,Vancouver Canucks
 Mike,Brown,"Vancouver Canucks, Anaheim Ducks, Toronto Maple Leafs, Edmonton Oilers, San Jose Sharks, Montréal Canadiens"
@@ -6255,7 +6255,7 @@ Brady,Murray,Los Angeles Kings
 Matt,Moulson,"Los Angeles Kings, New York Islanders, Buffalo Sabres, Minnesota Wild"
 Teddy,Purcell,"Los Angeles Kings, Tampa Bay Lightning, Edmonton Oilers, Florida Panthers"
 Daniel,Taylor,"Los Angeles Kings, Calgary Flames, Ottawa Senators"
-Jonathan,Quick,Los Angeles Kings
+Jonathan,Quick,"Los Angeles Kings, Vegas Golden Knights"
 Jonathan,Bernier,"Los Angeles Kings, Toronto Maple Leafs, Anaheim Ducks, Colorado Avalanche, Detroit Red Wings, New Jersey Devils"
 Erik,Ersberg,Los Angeles Kings
 Pete,Vandermeer,Phoenix Coyotes
@@ -6270,7 +6270,7 @@ Torrey,Mitchell,"San Jose Sharks, Minnesota Wild, Buffalo Sabres, Montréal Cana
 Mike,Iggulden,"San Jose Sharks, New York Islanders"
 Devin,Setoguchi,"San Jose Sharks, Minnesota Wild, Winnipeg Jets, Calgary Flames, Los Angeles Kings"
 Dimitri,Patzold,San Jose Sharks
-Thomas,Greiss,"San Jose Sharks, Phoenix Coyotes, Pittsburgh Penguins, New York Islanders, Detroit Red Wings"
+Thomas,Greiss,"San Jose Sharks, Phoenix Coyotes, Pittsburgh Penguins, New York Islanders, Detroit Red Wings, St. Louis Blues"
 Andrew,Murray,"Columbus Blue Jackets, San Jose Sharks, St. Louis Blues"
 Adam,Pineault,Columbus Blue Jackets
 Kris,Russell,"Columbus Blue Jackets, St. Louis Blues, Calgary Flames, Dallas Stars, Edmonton Oilers"
@@ -6326,7 +6326,7 @@ Nathan,Gerbe,"Buffalo Sabres, Carolina Hurricanes, Columbus Blue Jackets"
 Tim,Kennedy,"Buffalo Sabres, Florida Panthers, San Jose Sharks, Phoenix Coyotes"
 Ben,Maxwell,"Montréal Canadiens, Atlanta Thrashers, Anaheim Ducks, Winnipeg Jets"
 Yannick,Weber,"Montréal Canadiens, Vancouver Canucks, Nashville Predators, Pittsburgh Penguins"
-Max,Pacioretty,"Montréal Canadiens, Vegas Golden Knights"
+Max,Pacioretty,"Montréal Canadiens, Vegas Golden Knights, Carolina Hurricanes"
 Peter,Regin,"Ottawa Senators, New York Islanders, Chicago Blackhawks"
 Zack,Smith,"Ottawa Senators, Chicago Blackhawks"
 Jonas,Frogren,Toronto Maple Leafs
@@ -6507,7 +6507,7 @@ Jay,Rosehill,"Toronto Maple Leafs, Philadelphia Flyers"
 Viktor,Stalberg,"Toronto Maple Leafs, Chicago Blackhawks, Nashville Predators, New York Rangers, Ottawa Senators, Carolina Hurricanes"
 Carl,Gunnarsson,"Toronto Maple Leafs, St. Louis Blues"
 Tyler,Bozak,"Toronto Maple Leafs, St. Louis Blues"
-Nazem,Kadri,"Toronto Maple Leafs, Colorado Avalanche"
+Nazem,Kadri,"Toronto Maple Leafs, Colorado Avalanche, Calgary Flames"
 Brayden,Irwin,Toronto Maple Leafs
 Jonas,Gustavsson,"Toronto Maple Leafs, Detroit Red Wings, Boston Bruins, Edmonton Oilers"
 Arturs,Kulda,"Atlanta Thrashers, Winnipeg Jets"
@@ -6518,14 +6518,14 @@ Jerome,Samson,Carolina Hurricanes
 Justin,Peters,"Carolina Hurricanes, Washington Capitals, Arizona Coyotes"
 Victor,Oreskovich,"Florida Panthers, Vancouver Canucks"
 Mike,Duco,"Florida Panthers, Vancouver Canucks"
-Evgenii,Dadonov,"Florida Panthers, Ottawa Senators, Vegas Golden Knights"
+Evgenii,Dadonov,"Florida Panthers, Ottawa Senators, Vegas Golden Knights, Montréal Canadiens, Dallas Stars"
 Keaton,Ellerby,"Florida Panthers, Los Angeles Kings, Winnipeg Jets"
-Dmitry,Kulikov,"Florida Panthers, Buffalo Sabres, Winnipeg Jets, New Jersey Devils, Edmonton Oilers, Minnesota Wild"
+Dmitry,Kulikov,"Florida Panthers, Buffalo Sabres, Winnipeg Jets, New Jersey Devils, Edmonton Oilers, Minnesota Wild, Pittsburgh Penguins, Anaheim Ducks"
 Alexander,Salak,Florida Panthers
 Scott,Jackson,Tampa Bay Lightning
 James,Wright,"Tampa Bay Lightning, Winnipeg Jets"
 Victor,Hedman,Tampa Bay Lightning
-Dustin,Tokarski,"Tampa Bay Lightning, Montréal Canadiens, Anaheim Ducks, Buffalo Sabres"
+Dustin,Tokarski,"Tampa Bay Lightning, Montréal Canadiens, Anaheim Ducks, Buffalo Sabres, Pittsburgh Penguins"
 Kyle,Wilson,"Washington Capitals, Columbus Blue Jackets, Nashville Predators"
 Mathieu,Perreault,"Washington Capitals, Anaheim Ducks, Winnipeg Jets, Montréal Canadiens"
 John,Carlson,Washington Capitals
@@ -6535,12 +6535,12 @@ Cody,Franson,"Nashville Predators, Toronto Maple Leafs, Buffalo Sabres, Chicago 
 Nick,Spaling,"Nashville Predators, Pittsburgh Penguins, Toronto Maple Leafs, San Jose Sharks"
 Andreas,Thuresson,Nashville Predators
 Colin,Wilson,"Nashville Predators, Colorado Avalanche"
-Lars,Eller,"St. Louis Blues, Montréal Canadiens, Washington Capitals"
+Lars,Eller,"St. Louis Blues, Montréal Canadiens, Washington Capitals, Colorado Avalanche"
 Brandon,Yip,"Colorado Avalanche, Nashville Predators, Phoenix Coyotes"
 Ryan,Stoa,"Colorado Avalanche, Washington Capitals"
 Justin,Mercier,Colorado Avalanche
 Ryan,Wilson,Colorado Avalanche
-Ryan,O'Reilly,"Colorado Avalanche, Buffalo Sabres, St. Louis Blues"
+Ryan,O'Reilly,"Colorado Avalanche, Buffalo Sabres, St. Louis Blues, Toronto Maple Leafs"
 Matt,Duchene,"Colorado Avalanche, Ottawa Senators, Columbus Blue Jackets, Nashville Predators"
 Dean,Arsene,Edmonton Oilers
 Charles,Linglet,Edmonton Oilers
@@ -6576,7 +6576,7 @@ John,McCarthy,San Jose Sharks
 Benn,Ferriero,"San Jose Sharks, New York Rangers, Vancouver Canucks"
 Frazer,McLaren,"San Jose Sharks, Toronto Maple Leafs"
 Logan,Couture,San Jose Sharks
-Jason,Demers,"San Jose Sharks, Dallas Stars, Florida Panthers, Arizona Coyotes"
+Jason,Demers,"San Jose Sharks, Dallas Stars, Florida Panthers, Arizona Coyotes, Edmonton Oilers"
 Chad,Kolarik,"Columbus Blue Jackets, New York Rangers"
 Grant,Clitsome,"Columbus Blue Jackets, Winnipeg Jets"
 Tomas,Kana,Columbus Blue Jackets
@@ -6588,7 +6588,7 @@ Cody,Almond,Minnesota Wild
 Maxim,Noreau,Minnesota Wild
 Casey,Wellman,"Minnesota Wild, Washington Capitals"
 Nate,Prosser,"Minnesota Wild, St. Louis Blues, Philadelphia Flyers"
-Anton,Khudobin,"Minnesota Wild, Boston Bruins, Carolina Hurricanes, Anaheim Ducks, Dallas Stars"
+Anton,Khudobin,"Minnesota Wild, Boston Bruins, Carolina Hurricanes, Anaheim Ducks, Dallas Stars, Chicago Blackhawks"
 Olivier,Magnan,New Jersey Devils
 Mark,Fayne,"New Jersey Devils, Edmonton Oilers"
 Stephen,Gionta,"New Jersey Devils, New York Islanders"
@@ -6604,14 +6604,14 @@ Shane,Sims,New York Islanders
 Mark,Katic,New York Islanders
 Travis,Hamonic,"New York Islanders, Calgary Flames, Vancouver Canucks, Ottawa Senators"
 Justin,DiBenedetto,New York Islanders
-Nino,Niederreiter,"New York Islanders, Minnesota Wild, Carolina Hurricanes"
+Nino,Niederreiter,"New York Islanders, Minnesota Wild, Carolina Hurricanes, Nashville Predators, Winnipeg Jets"
 Jamie,Doornbosch,New York Islanders
 Matt,Campanale,New York Islanders
 Kevin,Poulin,New York Islanders
 Nathan,Lawson,"New York Islanders, Ottawa Senators"
 Mikko,Koskinen,"New York Islanders, Edmonton Oilers"
 Brodie,Dupont,New York Rangers
-Ryan,McDonagh,"New York Rangers, Tampa Bay Lightning"
+Ryan,McDonagh,"New York Rangers, Tampa Bay Lightning, Nashville Predators"
 Derek,Stepan,"New York Rangers, Arizona Coyotes, Ottawa Senators, Carolina Hurricanes"
 Evgeny,Grachev,"New York Rangers, St. Louis Blues"
 Dale,Weise,"New York Rangers, Vancouver Canucks, Montréal Canadiens, Chicago Blackhawks, Philadelphia Flyers"
@@ -6683,9 +6683,9 @@ Mark,Dekanich,Nashville Predators
 Anders,Lindback,"Nashville Predators, Tampa Bay Lightning, Buffalo Sabres, Dallas Stars, Arizona Coyotes"
 Nikita,Nikitin,"St. Louis Blues, Columbus Blue Jackets, Edmonton Oilers"
 Adam,Cracknell,"St. Louis Blues, Columbus Blue Jackets, Edmonton Oilers, Vancouver Canucks, Dallas Stars, New York Rangers, Anaheim Ducks"
-Ryan,Reaves,"St. Louis Blues, Pittsburgh Penguins, Vegas Golden Knights, New York Rangers"
+Ryan,Reaves,"St. Louis Blues, Pittsburgh Penguins, Vegas Golden Knights, New York Rangers, Minnesota Wild"
 Nick,Drazenovic,"St. Louis Blues, Columbus Blue Jackets, Pittsburgh Penguins"
-Ian,Cole,"St. Louis Blues, Pittsburgh Penguins, Columbus Blue Jackets, Colorado Avalanche, Minnesota Wild, Carolina Hurricanes"
+Ian,Cole,"St. Louis Blues, Pittsburgh Penguins, Columbus Blue Jackets, Colorado Avalanche, Minnesota Wild, Carolina Hurricanes, Tampa Bay Lightning"
 Kevin,Shattenkirk,"St. Louis Blues, Colorado Avalanche, Washington Capitals, New York Rangers, Tampa Bay Lightning, Anaheim Ducks"
 Philip,McRae,St. Louis Blues
 Stefan,Della Rovere,St. Louis Blues
@@ -6698,7 +6698,7 @@ Cameron,Gaunce,"Colorado Avalanche, Dallas Stars, Pittsburgh Penguins, Tampa Bay
 Mark,Olver,Colorado Avalanche
 Jonas,Holos,Colorado Avalanche
 Chris,VandeVelde,"Edmonton Oilers, Philadelphia Flyers"
-Jeff,Petry,"Edmonton Oilers, Montréal Canadiens"
+Jeff,Petry,"Edmonton Oilers, Montréal Canadiens, Pittsburgh Penguins"
 Linus,Omark,"Edmonton Oilers, Buffalo Sabres"
 Jordan,Eberle,"Edmonton Oilers, New York Islanders, Seattle Kraken"
 Teemu,Hartikainen,Edmonton Oilers
@@ -6728,7 +6728,7 @@ Justin,Braun,"San Jose Sharks, Philadelphia Flyers, New York Rangers"
 Mike,Moore,San Jose Sharks
 Tommy,Wingels,"San Jose Sharks, Ottawa Senators, Boston Bruins, Chicago Blackhawks"
 Brandon,Mashinter,"San Jose Sharks, New York Rangers, Chicago Blackhawks"
-Alex,Stalock,"San Jose Sharks, Minnesota Wild"
+Alex,Stalock,"San Jose Sharks, Minnesota Wild, Chicago Blackhawks"
 Nick,Holden,"Columbus Blue Jackets, Colorado Avalanche, New York Rangers, Boston Bruins, Vegas Golden Knights, Ottawa Senators"
 Matt,Calvert,"Columbus Blue Jackets, Colorado Avalanche"
 Tomas,Kubalik,Columbus Blue Jackets
@@ -6768,7 +6768,7 @@ TJ,Brennan,"Buffalo Sabres, Florida Panthers, Toronto Maple Leafs"
 Corey,Tropp,"Buffalo Sabres, Columbus Blue Jackets, Anaheim Ducks"
 Derek,Whitmore,Buffalo Sabres
 Travis,Turnbull,Buffalo Sabres
-Zack,Kassian,"Buffalo Sabres, Vancouver Canucks, Edmonton Oilers"
+Zack,Kassian,"Buffalo Sabres, Vancouver Canucks, Edmonton Oilers, Arizona Coyotes"
 Brayden,McNabb,"Buffalo Sabres, Los Angeles Kings, Vegas Golden Knights"
 Marcus,Foligno,"Buffalo Sabres, Minnesota Wild"
 Alexei,Emelin,"Montréal Canadiens, Nashville Predators"
@@ -6795,29 +6795,29 @@ Mike,Murphy,Carolina Hurricanes
 Bracken,Kearns,"Florida Panthers, San Jose Sharks, New York Islanders"
 Greg,Rallo,Florida Panthers
 Colby,Robak,"Florida Panthers, Anaheim Ducks"
-Erik,Gudbranson,"Florida Panthers, Vancouver Canucks, Pittsburgh Penguins, Anaheim Ducks, Ottawa Senators, Nashville Predators, Calgary Flames"
+Erik,Gudbranson,"Florida Panthers, Vancouver Canucks, Pittsburgh Penguins, Anaheim Ducks, Ottawa Senators, Nashville Predators, Calgary Flames, Columbus Blue Jackets"
 Brian,Foster,Florida Panthers
 Mike,Angelidis,Tampa Bay Lightning
 Pierre-Cedric,Labrie,Tampa Bay Lightning
 Brett,Connolly,"Tampa Bay Lightning, Boston Bruins, Washington Capitals, Florida Panthers, Chicago Blackhawks"
 JT,Brown,"Tampa Bay Lightning, Anaheim Ducks, Minnesota Wild"
 Tomas,Kundratek,Washington Capitals
-Dmitry,Orlov,Washington Capitals
+Dmitry,Orlov,"Washington Capitals, Boston Bruins"
 Cody,Eakin,"Washington Capitals, Dallas Stars, Vegas Golden Knights, Winnipeg Jets, Buffalo Sabres"
 Jimmy,Hayes,"Chicago Blackhawks, Florida Panthers, Boston Bruins, New Jersey Devils"
 Dylan,Olsen,"Chicago Blackhawks, Florida Panthers"
 Brandon,Bollig,"Chicago Blackhawks, Calgary Flames"
 Andrew,Shaw,"Chicago Blackhawks, Montréal Canadiens"
 Brandon,Saad,"Chicago Blackhawks, Columbus Blue Jackets, Colorado Avalanche, St. Louis Blues"
-Brendan,Smith,"Detroit Red Wings, New York Rangers, Carolina Hurricanes"
+Brendan,Smith,"Detroit Red Wings, New York Rangers, Carolina Hurricanes, New Jersey Devils"
 Joakim,Andersson,Detroit Red Wings
-Gustav,Nyquist,"Detroit Red Wings, San Jose Sharks, Columbus Blue Jackets"
+Gustav,Nyquist,"Detroit Red Wings, San Jose Sharks, Columbus Blue Jackets, Minnesota Wild"
 Riley,Sheahan,"Detroit Red Wings, Pittsburgh Penguins, Florida Panthers, Edmonton Oilers, Buffalo Sabres, Seattle Kraken"
 Ryan,Thang,Nashville Predators
 Roman,Josi,Nashville Predators
 Ryan,Ellis,"Nashville Predators, Philadelphia Flyers"
-Mattias,Ekholm,Nashville Predators
-Craig,Smith,"Nashville Predators, Boston Bruins"
+Mattias,Ekholm,"Nashville Predators, Edmonton Oilers"
+Craig,Smith,"Nashville Predators, Boston Bruins, Washington Capitals"
 Gabriel,Bourque,"Nashville Predators, Colorado Avalanche, Winnipeg Jets"
 Cade,Fairchild,St. Louis Blues
 Jaden,Schwartz,"St. Louis Blues, Seattle Kraken"
@@ -6827,7 +6827,7 @@ Roman,Horak,"Calgary Flames, Edmonton Oilers"
 Sven,Baertschi,"Calgary Flames, Vancouver Canucks, Vegas Golden Knights"
 Leland,Irving,Calgary Flames
 Brad,Malone,"Colorado Avalanche, Carolina Hurricanes, Edmonton Oilers"
-Tyson,Barrie,"Colorado Avalanche, Toronto Maple Leafs, Edmonton Oilers"
+Tyson,Barrie,"Colorado Avalanche, Toronto Maple Leafs, Edmonton Oilers, Nashville Predators"
 Stefan,Elliott,"Colorado Avalanche, Nashville Predators, Arizona Coyotes, Ottawa Senators"
 Mike,Connolly,Colorado Avalanche
 Gabriel,Landeskog,Colorado Avalanche
@@ -6844,7 +6844,7 @@ Mat,Clark,Anaheim Ducks
 Peter,Holland,"Anaheim Ducks, Toronto Maple Leafs, Arizona Coyotes, New York Rangers"
 Devante,Smith-Pelly,"Anaheim Ducks, Montréal Canadiens, New Jersey Devils, Washington Capitals"
 Iiro,Tarkki,Anaheim Ducks
-Jordie,Benn,"Dallas Stars, Montréal Canadiens, Vancouver Canucks, Winnipeg Jets, Minnesota Wild"
+Jordie,Benn,"Dallas Stars, Montréal Canadiens, Vancouver Canucks, Winnipeg Jets, Minnesota Wild, Toronto Maple Leafs"
 Scott,Glennie,Dallas Stars
 Reilly,Smith,"Dallas Stars, Boston Bruins, Florida Panthers, Vegas Golden Knights"
 Brenden,Dillon,"Dallas Stars, San Jose Sharks, Washington Capitals, Winnipeg Jets"
@@ -6880,7 +6880,7 @@ Eric,Gelinas,"New Jersey Devils, Colorado Avalanche"
 Harri,Pesonen,New Jersey Devils
 Stefan,Matteau,"New Jersey Devils, Montréal Canadiens, Vegas Golden Knights, Columbus Blue Jackets, Colorado Avalanche"
 Jeff,Frazee,New Jersey Devils
-Keith,Kinkaid,"New Jersey Devils, Montréal Canadiens, New York Rangers"
+Keith,Kinkaid,"New Jersey Devils, Montréal Canadiens, New York Rangers, Boston Bruins, Colorado Avalanche"
 Thomas,Hickey,New York Islanders
 Anders,Lee,New York Islanders
 Brock,Nelson,New York Islanders
@@ -6901,10 +6901,10 @@ Brian,Flynn,"Buffalo Sabres, Montréal Canadiens"
 Mikhail,Grigorenko,"Buffalo Sabres, Colorado Avalanche, Columbus Blue Jackets"
 Chad,Ruhwedel,"Buffalo Sabres, Pittsburgh Penguins"
 Greg,Pateryn,"Montréal Canadiens, Dallas Stars, Minnesota Wild, Colorado Avalanche, San Jose Sharks, Anaheim Ducks"
-Jarred,Tinordi,"Montréal Canadiens, Arizona Coyotes, Nashville Predators, Boston Bruins, New York Rangers"
+Jarred,Tinordi,"Montréal Canadiens, Arizona Coyotes, Nashville Predators, Boston Bruins, New York Rangers, Chicago Blackhawks"
 Brendan,Gallagher,Montréal Canadiens
-Nathan,Beaulieu,"Montréal Canadiens, Buffalo Sabres, Winnipeg Jets"
-Alex,Galchenyuk,"Montréal Canadiens, Arizona Coyotes, Pittsburgh Penguins, Minnesota Wild, Ottawa Senators, Toronto Maple Leafs"
+Nathan,Beaulieu,"Montréal Canadiens, Buffalo Sabres, Winnipeg Jets, Anaheim Ducks"
+Alex,Galchenyuk,"Montréal Canadiens, Arizona Coyotes, Pittsburgh Penguins, Minnesota Wild, Ottawa Senators, Toronto Maple Leafs, Colorado Avalanche"
 Eric,Gryba,"Ottawa Senators, Edmonton Oilers, New Jersey Devils"
 Derek,Grant,"Ottawa Senators, Calgary Flames, Buffalo Sabres, Nashville Predators, Anaheim Ducks, Pittsburgh Penguins, Philadelphia Flyers"
 Dave,Dziurzynski,Ottawa Senators
@@ -6923,15 +6923,15 @@ Jonathan,Rheault,Florida Panthers
 Eric,Selleck,"Florida Panthers, Arizona Coyotes"
 Drew,Shore,"Florida Panthers, Calgary Flames, Vancouver Canucks, Carolina Hurricanes"
 Alexander,Petrovic,"Florida Panthers, Edmonton Oilers"
-Nick,Bjugstad,"Florida Panthers, Pittsburgh Penguins, Minnesota Wild"
+Nick,Bjugstad,"Florida Panthers, Pittsburgh Penguins, Minnesota Wild, Edmonton Oilers, Arizona Coyotes"
 Quinton,Howden,"Florida Panthers, Winnipeg Jets"
-Jonathan,Huberdeau,Florida Panthers
+Jonathan,Huberdeau,"Florida Panthers, Calgary Flames"
 Alex,Killorn,Tampa Bay Lightning
 Mark,Barberio,"Tampa Bay Lightning, Montréal Canadiens, Colorado Avalanche"
 Tyler,Johnson,"Tampa Bay Lightning, Chicago Blackhawks"
 Richard,Panik,"Tampa Bay Lightning, Toronto Maple Leafs, Chicago Blackhawks, Arizona Coyotes, Washington Capitals, Detroit Red Wings, New York Islanders"
 Radko,Gudas,"Tampa Bay Lightning, Philadelphia Flyers, Washington Capitals, Florida Panthers"
-Ondrej,Palat,Tampa Bay Lightning
+Ondrej,Palat,"Tampa Bay Lightning, New Jersey Devils"
 Andrej,Sustr,"Tampa Bay Lightning, Anaheim Ducks"
 Steve,Oleksy,"Washington Capitals, Pittsburgh Penguins"
 Cameron,Schilling,"Washington Capitals, Winnipeg Jets"
@@ -6944,7 +6944,7 @@ Carter,Hutton,"Chicago Blackhawks, Nashville Predators, St. Louis Blues, Buffalo
 Brian,Lashoff,Detroit Red Wings
 Damien,Brunner,"Detroit Red Wings, New Jersey Devils"
 Danny,DeKeyser,Detroit Red Wings
-Petr,Mrazek,"Detroit Red Wings, Philadelphia Flyers, Carolina Hurricanes, Toronto Maple Leafs"
+Petr,Mrazek,"Detroit Red Wings, Philadelphia Flyers, Carolina Hurricanes, Toronto Maple Leafs, Chicago Blackhawks"
 Kevin,Henderson,Nashville Predators
 Victor,Bartley,"Nashville Predators, Montréal Canadiens"
 Taylor,Beck,"Nashville Predators, New York Islanders, New York Rangers, Edmonton Oilers"
@@ -6952,7 +6952,7 @@ Austin,Watson,"Nashville Predators, Ottawa Senators"
 Joonas,Rask,Nashville Predators
 Daniel,Bang,Nashville Predators
 Filip,Forsberg,Nashville Predators
-Vladimir,Tarasenko,St. Louis Blues
+Vladimir,Tarasenko,"St. Louis Blues, New York Rangers"
 Dmitrij,Jaskin,"St. Louis Blues, Washington Capitals, Arizona Coyotes"
 Mark,Cundari,Calgary Flames
 Carter,Bancks,Calgary Flames
@@ -6963,7 +6963,7 @@ Roman,Cervenka,Calgary Flames
 Patrick,Bordeleau,Colorado Avalanche
 Michael,Sgarbossa,"Colorado Avalanche, Anaheim Ducks, Florida Panthers, Washington Capitals"
 Sami,Aittokallio,Colorado Avalanche
-Justin,Schultz,"Edmonton Oilers, Pittsburgh Penguins, Washington Capitals"
+Justin,Schultz,"Edmonton Oilers, Pittsburgh Penguins, Washington Capitals, Seattle Kraken"
 Mark,Arcobello,"Edmonton Oilers, Pittsburgh Penguins, Nashville Predators, Arizona Coyotes, Toronto Maple Leafs"
 Nail,Yakupov,"Edmonton Oilers, St. Louis Blues, Colorado Avalanche"
 Steven,Pinizzotto,"Vancouver Canucks, Edmonton Oilers"
@@ -6975,7 +6975,7 @@ Emerson,Etem,"Anaheim Ducks, New York Rangers, Vancouver Canucks"
 Rickard,Rakell,"Anaheim Ducks, Pittsburgh Penguins"
 Viktor,Fasth,"Anaheim Ducks, Edmonton Oilers"
 Antoine,Roussel,"Dallas Stars, Vancouver Canucks, Arizona Coyotes"
-Alex,Chiasson,"Dallas Stars, Ottawa Senators, Calgary Flames, Washington Capitals, Edmonton Oilers, Vancouver Canucks"
+Alex,Chiasson,"Dallas Stars, Ottawa Senators, Calgary Flames, Washington Capitals, Edmonton Oilers, Vancouver Canucks, Detroit Red Wings"
 Jamie,Oleksiak,"Dallas Stars, Pittsburgh Penguins, Seattle Kraken"
 Cristopher,Nilstorp,Dallas Stars
 Tyler,Toffoli,"Los Angeles Kings, Vancouver Canucks, Montréal Canadiens, Calgary Flames"
@@ -6988,9 +6988,9 @@ Sean,Collins,"Columbus Blue Jackets, Washington Capitals"
 Jonathan,Marchessault,"Columbus Blue Jackets, Tampa Bay Lightning, Florida Panthers, Vegas Golden Knights"
 Johan,Larsson,"Minnesota Wild, Buffalo Sabres, Arizona Coyotes, Washington Capitals"
 Charlie,Coyle,"Minnesota Wild, Boston Bruins"
-Mikael,Granlund,"Minnesota Wild, Nashville Predators"
+Mikael,Granlund,"Minnesota Wild, Nashville Predators, Pittsburgh Penguins"
 Jonas,Brodin,Minnesota Wild
-Darcy,Kuemper,"Minnesota Wild, Los Angeles Kings, Arizona Coyotes, Colorado Avalanche"
+Darcy,Kuemper,"Minnesota Wild, Los Angeles Kings, Arizona Coyotes, Colorado Avalanche, Washington Capitals"
 Anthony,Peluso,"Winnipeg Jets, Washington Capitals, Calgary Flames"
 Zach,Redmond,"Winnipeg Jets, Colorado Avalanche, Montréal Canadiens, Buffalo Sabres"
 Jon,Merrill,"New Jersey Devils, Vegas Golden Knights, Montréal Canadiens, Detroit Red Wings, Minnesota Wild"
@@ -7002,13 +7002,13 @@ Justin,Johnson,New York Islanders
 John,Persson,New York Islanders
 Scott,Mayfield,New York Islanders
 Johan,Sundstrom,New York Islanders
-Ryan,Strome,"New York Islanders, Edmonton Oilers, New York Rangers"
+Ryan,Strome,"New York Islanders, Edmonton Oilers, New York Rangers, Anaheim Ducks"
 Mike,Halmo,New York Islanders
 Kevin,Czuczman,"New York Islanders, Pittsburgh Penguins"
-Dylan,McIlrath,"New York Rangers, Florida Panthers, Detroit Red Wings"
+Dylan,McIlrath,"New York Rangers, Florida Panthers, Detroit Red Wings, Washington Capitals"
 Jesper,Fast,"New York Rangers, Carolina Hurricanes"
 Conor,Allen,New York Rangers
-Cam,Talbot,"New York Rangers, Edmonton Oilers, Philadelphia Flyers, Calgary Flames, Minnesota Wild"
+Cam,Talbot,"New York Rangers, Edmonton Oilers, Philadelphia Flyers, Calgary Flames, Minnesota Wild, Ottawa Senators"
 Michael,Raffl,"Philadelphia Flyers, Washington Capitals, Dallas Stars"
 Calvin,Heeter,Philadelphia Flyers
 Zach,Sill,"Pittsburgh Penguins, Toronto Maple Leafs, Washington Capitals"
@@ -7016,8 +7016,8 @@ Philip,Samuelsson,"Pittsburgh Penguins, Arizona Coyotes"
 Brian,Dumoulin,Pittsburgh Penguins
 Brian,Gibbons,"Pittsburgh Penguins, Columbus Blue Jackets, New Jersey Devils, Ottawa Senators, Anaheim Ducks, Carolina Hurricanes"
 Adam,Payerl,Pittsburgh Penguins
-Olli,Maatta,"Pittsburgh Penguins, Chicago Blackhawks, Los Angeles Kings"
-Jayson,Megna,"Pittsburgh Penguins, New York Rangers, Vancouver Canucks, Colorado Avalanche"
+Olli,Maatta,"Pittsburgh Penguins, Chicago Blackhawks, Los Angeles Kings, Detroit Red Wings"
+Jayson,Megna,"Pittsburgh Penguins, New York Rangers, Vancouver Canucks, Colorado Avalanche, Anaheim Ducks"
 Jeff,Zatkoff,"Pittsburgh Penguins, Los Angeles Kings"
 David,Warsofsky,"Boston Bruins, New Jersey Devils, Pittsburgh Penguins, Colorado Avalanche"
 Craig,Cunningham,"Boston Bruins, Arizona Coyotes"
@@ -7027,10 +7027,10 @@ Kevan,Miller,Boston Bruins
 Alex,Khokhlachev,Boston Bruins
 Matt,Lindblad,Boston Bruins
 Niklas,Svedberg,Boston Bruins
-Nicolas,Deslauriers,"Buffalo Sabres, Montréal Canadiens, Anaheim Ducks, Minnesota Wild"
+Nicolas,Deslauriers,"Buffalo Sabres, Montréal Canadiens, Anaheim Ducks, Minnesota Wild, Philadelphia Flyers"
 Phil,Varone,"Buffalo Sabres, Ottawa Senators, Philadelphia Flyers"
 Zemgus,Girgensons,Buffalo Sabres
-Jake,McCabe,"Buffalo Sabres, Chicago Blackhawks"
+Jake,McCabe,"Buffalo Sabres, Chicago Blackhawks, Toronto Maple Leafs"
 Rasmus,Ristolainen,"Buffalo Sabres, Philadelphia Flyers"
 Nikita,Zadorov,"Buffalo Sabres, Colorado Avalanche, Chicago Blackhawks, Calgary Flames"
 Connor,Knapp,Buffalo Sabres
@@ -7045,16 +7045,16 @@ Jerry,D'Amigo,"Toronto Maple Leafs, Buffalo Sabres"
 Greg,McKegg,"Toronto Maple Leafs, Florida Panthers, Tampa Bay Lightning, Pittsburgh Penguins, Carolina Hurricanes, New York Rangers, Boston Bruins"
 Petter,Granberg,"Toronto Maple Leafs, Nashville Predators"
 David,Broll,Toronto Maple Leafs
-Josh,Leivo,"Toronto Maple Leafs, Vancouver Canucks, Calgary Flames, Carolina Hurricanes"
+Josh,Leivo,"Toronto Maple Leafs, Vancouver Canucks, Calgary Flames, Carolina Hurricanes, St. Louis Blues"
 Spencer,Abbott,"Toronto Maple Leafs, Chicago Blackhawks"
 Morgan,Rielly,Toronto Maple Leafs
 Elias,Lindholm,"Carolina Hurricanes, Calgary Flames"
 Garrett,Wilson,"Florida Panthers, Pittsburgh Penguins"
-Vincent,Trocheck,"Florida Panthers, Carolina Hurricanes"
+Vincent,Trocheck,"Florida Panthers, Carolina Hurricanes, New York Rangers"
 Jonathan,Racine,Florida Panthers
 Aleksander,Barkov,Florida Panthers
 Nikita,Kucherov,Tampa Bay Lightning
-Vladislav,Namestnikov,"Tampa Bay Lightning, New York Rangers, Ottawa Senators, Colorado Avalanche, Detroit Red Wings, Dallas Stars"
+Vladislav,Namestnikov,"Tampa Bay Lightning, New York Rangers, Ottawa Senators, Colorado Avalanche, Detroit Red Wings, Dallas Stars, Winnipeg Jets"
 Cedric,Paquette,"Tampa Bay Lightning, Ottawa Senators, Carolina Hurricanes, Montréal Canadiens"
 Dmitry,Korobov,Tampa Bay Lightning
 Cody,Kunyk,Tampa Bay Lightning
@@ -7065,7 +7065,7 @@ Michael,Latta,Washington Capitals
 Patrick,Wey,Washington Capitals
 Julien,Brouillette,"Washington Capitals, Winnipeg Jets"
 Evgeny,Kuznetsov,Washington Capitals
-Connor,Carrick,"Washington Capitals, Toronto Maple Leafs, New Jersey Devils, Dallas Stars"
+Connor,Carrick,"Washington Capitals, Toronto Maple Leafs, New Jersey Devils, Dallas Stars, Boston Bruins"
 Nate,Schmidt,"Washington Capitals, Vegas Golden Knights, Vancouver Canucks, Winnipeg Jets"
 Joakim,Nordstrom,"Chicago Blackhawks, Carolina Hurricanes, Boston Bruins, Calgary Flames"
 Teuvo,Teravainen,"Chicago Blackhawks, Carolina Hurricanes"
@@ -7082,22 +7082,22 @@ Xavier,Ouellet,"Detroit Red Wings, Montréal Canadiens"
 Ryan,Sproul,"Detroit Red Wings, New York Rangers"
 Luke,Glendening,"Detroit Red Wings, Dallas Stars"
 Mark,Van Guilder,Nashville Predators
-Calle,Jarnkrok,"Nashville Predators, Calgary Flames, Seattle Kraken"
+Calle,Jarnkrok,"Nashville Predators, Calgary Flames, Seattle Kraken, Toronto Maple Leafs"
 Colton,Sissons,Nashville Predators
 Seth,Jones,"Nashville Predators, Columbus Blue Jackets, Chicago Blackhawks"
 Simon,Moser,Nashville Predators
-Magnus,Hellberg,"Nashville Predators, New York Rangers, Detroit Red Wings"
+Magnus,Hellberg,"Nashville Predators, New York Rangers, Detroit Red Wings, Ottawa Senators"
 Marek,Mazanec,Nashville Predators
 Ty,Rattie,"St. Louis Blues, Carolina Hurricanes, Edmonton Oilers"
 Corban,Knight,"Calgary Flames, Florida Panthers, Philadelphia Flyers"
 Chris,Breen,Calgary Flames
 Bill,Arnold,Calgary Flames
 Kenny,Agostino,"Calgary Flames, St. Louis Blues, Boston Bruins, New Jersey Devils, Montréal Canadiens, Toronto Maple Leafs"
-Johnny,Gaudreau,Calgary Flames
+Johnny,Gaudreau,"Calgary Flames, Columbus Blue Jackets"
 Markus,Granlund,"Calgary Flames, Vancouver Canucks, Edmonton Oilers"
 Tyler,Wotherspoon,Calgary Flames
 Chad,Billins,Calgary Flames
-Sean,Monahan,Calgary Flames
+Sean,Monahan,"Calgary Flames, Montréal Canadiens"
 Bryce,Van Brabant,Calgary Flames
 Reto,Berra,"Calgary Flames, Colorado Avalanche, Florida Panthers, Anaheim Ducks"
 Joni,Ortio,Calgary Flames
@@ -7107,11 +7107,11 @@ Nathan,MacKinnon,Colorado Avalanche
 Joey,Hishon,Colorado Avalanche
 Luke,Gazdic,"Edmonton Oilers, New Jersey Devils"
 Martin,Marincin,"Edmonton Oilers, Toronto Maple Leafs"
-Tyler,Pitlick,"Edmonton Oilers, Dallas Stars, Philadelphia Flyers, Arizona Coyotes, Montréal Canadiens, Calgary Flames"
-Taylor,Fedun,"Edmonton Oilers, San Jose Sharks, Vancouver Canucks, Buffalo Sabres, Dallas Stars"
+Tyler,Pitlick,"Edmonton Oilers, Dallas Stars, Philadelphia Flyers, Arizona Coyotes, Montréal Canadiens, Calgary Flames, St. Louis Blues"
+Taylor,Fedun,"Edmonton Oilers, San Jose Sharks, Vancouver Canucks, Buffalo Sabres, Dallas Stars, Pittsburgh Penguins"
 Will,Acton,Edmonton Oilers
 Oscar,Klefbom,Edmonton Oilers
-Brad,Hunt,"Edmonton Oilers, Nashville Predators, St. Louis Blues, Vegas Golden Knights, Minnesota Wild, Vancouver Canucks"
+Brad,Hunt,"Edmonton Oilers, Nashville Predators, St. Louis Blues, Vegas Golden Knights, Minnesota Wild, Vancouver Canucks, Colorado Avalanche"
 Anton,Belov,Edmonton Oilers
 Darren,Archibald,"Vancouver Canucks, Ottawa Senators"
 Kellan,Lain,Vancouver Canucks
@@ -7123,12 +7123,12 @@ Hampus,Lindholm,"Anaheim Ducks, Boston Bruins"
 Frederik,Andersen,"Anaheim Ducks, Toronto Maple Leafs, Carolina Hurricanes"
 John,Gibson,Anaheim Ducks
 Kevin,Connauton,"Dallas Stars, Columbus Blue Jackets, Arizona Coyotes, Colorado Avalanche, Florida Panthers, Philadelphia Flyers"
-Patrik,Nemeth,"Dallas Stars, Colorado Avalanche, Detroit Red Wings, New York Rangers"
+Patrik,Nemeth,"Dallas Stars, Colorado Avalanche, Detroit Red Wings, New York Rangers, Arizona Coyotes"
 Valeri,Nichushkin,"Dallas Stars, Colorado Avalanche"
-Jack,Campbell,"Dallas Stars, Los Angeles Kings, Toronto Maple Leafs"
+Jack,Campbell,"Dallas Stars, Los Angeles Kings, Toronto Maple Leafs, Edmonton Oilers"
 Andrew,Campbell,"Los Angeles Kings, Arizona Coyotes, Toronto Maple Leafs"
 Linden,Vey,"Los Angeles Kings, Vancouver Canucks, Calgary Flames"
-Martin,Jones,"Los Angeles Kings, San Jose Sharks, Philadelphia Flyers"
+Martin,Jones,"Los Angeles Kings, San Jose Sharks, Philadelphia Flyers, Seattle Kraken"
 Jordan,Szwarz,"Phoenix Coyotes, Arizona Coyotes, Boston Bruins, Ottawa Senators"
 Brandon,Gormley,"Phoenix Coyotes, Arizona Coyotes, Colorado Avalanche"
 Lucas,Lessio,"Phoenix Coyotes, Arizona Coyotes, Montréal Canadiens"
@@ -7140,17 +7140,17 @@ Tomas,Hertl,San Jose Sharks
 Eriah,Hayes,San Jose Sharks
 Michael,Chaput,"Columbus Blue Jackets, Vancouver Canucks, Montréal Canadiens, Arizona Coyotes"
 Boone,Jenner,Columbus Blue Jackets
-Ryan,Murray,"Columbus Blue Jackets, New Jersey Devils, Colorado Avalanche"
-Erik,Haula,"Minnesota Wild, Vegas Golden Knights, Carolina Hurricanes, Florida Panthers, Nashville Predators, Boston Bruins"
+Ryan,Murray,"Columbus Blue Jackets, New Jersey Devils, Colorado Avalanche, Edmonton Oilers"
+Erik,Haula,"Minnesota Wild, Vegas Golden Knights, Carolina Hurricanes, Florida Panthers, Nashville Predators, Boston Bruins, New Jersey Devils"
 Justin,Fontaine,Minnesota Wild
 Matt,Dumba,Minnesota Wild
 Christian,Folin,"Minnesota Wild, Los Angeles Kings, Philadelphia Flyers, Montréal Canadiens"
 John,Albert,Winnipeg Jets
 Eric,O'Dell,Winnipeg Jets
-Ben,Chiarot,"Winnipeg Jets, Montréal Canadiens, Florida Panthers"
+Ben,Chiarot,"Winnipeg Jets, Montréal Canadiens, Florida Panthers, Detroit Red Wings"
 Julian,Melchiori,Winnipeg Jets
 Jacob,Trouba,"Winnipeg Jets, New York Rangers"
-Michael,Hutchinson,"Winnipeg Jets, Toronto Maple Leafs, Florida Panthers, Colorado Avalanche"
+Michael,Hutchinson,"Winnipeg Jets, Toronto Maple Leafs, Florida Panthers, Colorado Avalanche, Columbus Blue Jackets"
 Seth,Helgeson,New Jersey Devils
 Damon,Severson,New Jersey Devils
 Raman,Hrabarenka,New Jersey Devils
@@ -7163,16 +7163,16 @@ Anthony,Duclair,"New York Rangers, Arizona Coyotes, Chicago Blackhawks, Ottawa S
 Mackenzie,Skapski,New York Rangers
 Petr,Straka,Philadelphia Flyers
 Mark,Alt,"Philadelphia Flyers, Colorado Avalanche, Los Angeles Kings"
-Nick,Cousins,"Philadelphia Flyers, Arizona Coyotes, Montréal Canadiens, Vegas Golden Knights, Nashville Predators"
-Shayne,Gostisbehere,"Philadelphia Flyers, Arizona Coyotes"
+Nick,Cousins,"Philadelphia Flyers, Arizona Coyotes, Montréal Canadiens, Vegas Golden Knights, Nashville Predators, Florida Panthers"
+Shayne,Gostisbehere,"Philadelphia Flyers, Arizona Coyotes, Carolina Hurricanes"
 Pierre-Edouard,Bellemare,"Philadelphia Flyers, Vegas Golden Knights, Colorado Avalanche, Tampa Bay Lightning"
 Rob,Zepp,Philadelphia Flyers
 Bryan,Rust,Pittsburgh Penguins
 Scott,Wilson,"Pittsburgh Penguins, Buffalo Sabres, Detroit Red Wings"
 Dominik,Uher,Pittsburgh Penguins
-Scott,Harrington,"Pittsburgh Penguins, Toronto Maple Leafs, Columbus Blue Jackets"
+Scott,Harrington,"Pittsburgh Penguins, Toronto Maple Leafs, Columbus Blue Jackets, Anaheim Ducks, San Jose Sharks"
 Bobby,Farnham,"Pittsburgh Penguins, New Jersey Devils, Montréal Canadiens"
-Derrick,Pouliot,"Pittsburgh Penguins, Vancouver Canucks, St. Louis Blues, Vegas Golden Knights, Seattle Kraken"
+Derrick,Pouliot,"Pittsburgh Penguins, Vancouver Canucks, St. Louis Blues, Vegas Golden Knights, Seattle Kraken, San Jose Sharks"
 Bobby,Robins,Boston Bruins
 Brian,Ferlin,Boston Bruins
 Joe,Morrow,"Boston Bruins, Montréal Canadiens, Winnipeg Jets"
@@ -7188,7 +7188,7 @@ Jacob,de la Rose,"Montréal Canadiens, Detroit Red Wings, St. Louis Blues"
 Jiri,Sekac,"Montréal Canadiens, Anaheim Ducks, Chicago Blackhawks, Arizona Coyotes"
 Shane,Prince,"Ottawa Senators, New York Islanders"
 Matt,Puempel,"Ottawa Senators, New York Rangers, Detroit Red Wings"
-Curtis,Lazar,"Ottawa Senators, Calgary Flames, Buffalo Sabres, Boston Bruins"
+Curtis,Lazar,"Ottawa Senators, Calgary Flames, Buffalo Sabres, Boston Bruins, New Jersey Devils, Vancouver Canucks"
 Chris,Driedger,"Ottawa Senators, Florida Panthers, Seattle Kraken"
 Andrew,MacWilliam,Toronto Maple Leafs
 Brandon,Kozun,Toronto Maple Leafs
@@ -7203,7 +7203,7 @@ Brody,Sutter,Carolina Hurricanes
 Keegan,Lowe,"Carolina Hurricanes, Edmonton Oilers"
 Victor,Rask,"Carolina Hurricanes, Minnesota Wild, Seattle Kraken"
 Brendan,Woods,Carolina Hurricanes
-Patrick,Brown,"Carolina Hurricanes, Vegas Golden Knights, Philadelphia Flyers"
+Patrick,Brown,"Carolina Hurricanes, Vegas Golden Knights, Philadelphia Flyers, Ottawa Senators"
 Rocco,Grimaldi,"Florida Panthers, Colorado Avalanche, Nashville Predators"
 Aaron,Ekblad,Florida Panthers
 Luke,Witkowski,"Tampa Bay Lightning, Detroit Red Wings"
@@ -7213,7 +7213,7 @@ Jonathan,Drouin,"Tampa Bay Lightning, Montréal Canadiens"
 Andrei,Vasilevskiy,Tampa Bay Lightning
 Stanislav,Galiev,Washington Capitals
 Liam,O'Brien,"Washington Capitals, Colorado Avalanche, Arizona Coyotes"
-Andre,Burakovsky,"Washington Capitals, Colorado Avalanche"
+Andre,Burakovsky,"Washington Capitals, Colorado Avalanche, Seattle Kraken"
 Michael,Paliotta,"Chicago Blackhawks, Columbus Blue Jackets"
 Klas,Dahlbeck,"Chicago Blackhawks, Arizona Coyotes, Carolina Hurricanes"
 Adam,Clendening,"Chicago Blackhawks, Vancouver Canucks, Pittsburgh Penguins, Edmonton Oilers, New York Rangers, Arizona Coyotes, Columbus Blue Jackets"
@@ -7224,7 +7224,7 @@ Kyle,Baun,Chicago Blackhawks
 Scott,Darling,"Chicago Blackhawks, Carolina Hurricanes"
 Anthony,Bitetto,"Nashville Predators, Minnesota Wild, Winnipeg Jets, New York Rangers"
 Miikka,Salomaki,Nashville Predators
-Kevin,Fiala,"Nashville Predators, Minnesota Wild"
+Kevin,Fiala,"Nashville Predators, Minnesota Wild, Los Angeles Kings"
 Viktor,Arvidsson,"Nashville Predators, Los Angeles Kings"
 Jori,Lehtera,"St. Louis Blues, Philadelphia Flyers"
 Petteri,Lindbohm,"St. Louis Blues, Florida Panthers"
@@ -7235,7 +7235,7 @@ Emile,Poirier,Calgary Flames
 Josh,Jooris,"Calgary Flames, New York Rangers, Arizona Coyotes, Pittsburgh Penguins, Carolina Hurricanes"
 David,Wolf,Calgary Flames
 Sam,Bennett,"Calgary Flames, Florida Panthers"
-Andrew,Agozzino,"Colorado Avalanche, Pittsburgh Penguins, Anaheim Ducks, Ottawa Senators"
+Andrew,Agozzino,"Colorado Avalanche, Pittsburgh Penguins, Anaheim Ducks, Ottawa Senators, San Jose Sharks"
 Duncan,Siemens,Colorado Avalanche
 Colin,Smith,Colorado Avalanche
 Dennis,Everberg,Colorado Avalanche
@@ -7254,7 +7254,7 @@ Tyler,Bunz,Edmonton Oilers
 Laurent,Brossoit,"Edmonton Oilers, Winnipeg Jets, Vegas Golden Knights"
 Alex,Biega,"Vancouver Canucks, Detroit Red Wings, Toronto Maple Leafs"
 Brandon,DeFazio,Vancouver Canucks
-Bo,Horvat,Vancouver Canucks
+Bo,Horvat,"Vancouver Canucks, New York Islanders"
 Ronalds,Kenins,Vancouver Canucks
 Jesse,Blacker,Anaheim Ducks
 Chris,Wagner,"Anaheim Ducks, Colorado Avalanche, New York Islanders, Boston Bruins"
@@ -7264,15 +7264,15 @@ William,Karlsson,"Anaheim Ducks, Columbus Blue Jackets, Vegas Golden Knights"
 Stefan,Noesen,"Anaheim Ducks, New Jersey Devils, Pittsburgh Penguins, San Jose Sharks, Toronto Maple Leafs, Carolina Hurricanes"
 Curtis,McKenzie,Dallas Stars
 Brendan,Ranford,Dallas Stars
-John,Klingberg,Dallas Stars
+John,Klingberg,"Dallas Stars, Anaheim Ducks, Minnesota Wild"
 Jyrki,Jokipakka,"Dallas Stars, Calgary Flames, Ottawa Senators"
-Brett,Ritchie,"Dallas Stars, Boston Bruins, Calgary Flames"
+Brett,Ritchie,"Dallas Stars, Boston Bruins, Calgary Flames, Arizona Coyotes"
 Andy,Andreoff,"Los Angeles Kings, Philadelphia Flyers, New York Islanders"
 Nicholas,Shore,"Los Angeles Kings, Ottawa Senators, Calgary Flames, Toronto Maple Leafs, Winnipeg Jets"
 Bryan,Lerg,San Jose Sharks
 Daniil,Tarasov,San Jose Sharks
 Barclay,Goodrow,"San Jose Sharks, Tampa Bay Lightning, New York Rangers"
-Chris,Tierney,"San Jose Sharks, Ottawa Senators"
+Chris,Tierney,"San Jose Sharks, Ottawa Senators, Montréal Canadiens, Florida Panthers"
 Mirco,Mueller,"San Jose Sharks, New Jersey Devils"
 Melker,Karlsson,San Jose Sharks
 Troy,Grosenick,"San Jose Sharks, Los Angeles Kings"
@@ -7283,7 +7283,7 @@ Kerby,Rychel,"Columbus Blue Jackets, Montréal Canadiens, Calgary Flames"
 Anton,Forsberg,"Columbus Blue Jackets, Chicago Blackhawks, Carolina Hurricanes, Ottawa Senators"
 Tyler,Graovac,"Minnesota Wild, Washington Capitals, Vancouver Canucks"
 Adam,Lowry,Winnipeg Jets
-Andrew,Copp,"Winnipeg Jets, New York Rangers"
+Andrew,Copp,"Winnipeg Jets, New York Rangers, Detroit Red Wings"
 Justin,Hodgman,Arizona Coyotes
 Brendan,Shinnimin,Arizona Coyotes
 Tobias,Rieder,"Arizona Coyotes, Los Angeles Kings, Edmonton Oilers, Calgary Flames, Buffalo Sabres"
@@ -7297,7 +7297,7 @@ Brian,O'Neill,New Jersey Devils
 Joseph,Blandisi,"New Jersey Devils, Anaheim Ducks, Pittsburgh Penguins"
 Miles,Wood,New Jersey Devils
 Steven,Santini,"New Jersey Devils, Nashville Predators, St. Louis Blues"
-Pavel,Zacha,New Jersey Devils
+Pavel,Zacha,"New Jersey Devils, Boston Bruins"
 Sergey,Kalinin,New Jersey Devils
 Vojtech,Mozik,New Jersey Devils
 Scott,Wedgewood,"New Jersey Devils, Arizona Coyotes, Dallas Stars"
@@ -7314,60 +7314,60 @@ Taylor,Leier,Philadelphia Flyers
 Evgeny,Medvedev,Philadelphia Flyers
 Tom,Kuhnhackl,"Pittsburgh Penguins, New York Islanders"
 Josh,Archibald,"Pittsburgh Penguins, Arizona Coyotes, Edmonton Oilers"
-Oskar,Sundqvist,"Pittsburgh Penguins, St. Louis Blues, Detroit Red Wings"
+Oskar,Sundqvist,"Pittsburgh Penguins, St. Louis Blues, Detroit Red Wings, Minnesota Wild"
 Conor,Sheary,"Pittsburgh Penguins, Buffalo Sabres, Washington Capitals"
 Daniel,Sprong,"Pittsburgh Penguins, Anaheim Ducks, Washington Capitals, Seattle Kraken"
 Dominik,Simon,"Pittsburgh Penguins, Calgary Flames, Anaheim Ducks"
 Sergei,Plotnikov,"Pittsburgh Penguins, Arizona Coyotes"
-Matt,Murray,"Pittsburgh Penguins, Ottawa Senators"
+Matt,Murray,"Pittsburgh Penguins, Ottawa Senators, Toronto Maple Leafs"
 Tommy,Cross,Boston Bruins
 Tyler,Randell,Boston Bruins
-Colin,Miller,"Boston Bruins, Vegas Golden Knights, Buffalo Sabres"
-Frank,Vatrano,"Boston Bruins, Florida Panthers, New York Rangers"
+Colin,Miller,"Boston Bruins, Vegas Golden Knights, Buffalo Sabres, Dallas Stars"
+Frank,Vatrano,"Boston Bruins, Florida Panthers, New York Rangers, Anaheim Ducks"
 Joonas,Kemppainen,Boston Bruins
-Noel,Acciari,"Boston Bruins, Florida Panthers"
+Noel,Acciari,"Boston Bruins, Florida Panthers, Toronto Maple Leafs, St. Louis Blues"
 Daniel,Catenacci,"Buffalo Sabres, New York Rangers"
 Cole,Schneider,Buffalo Sabres
-Hudson,Fasching,"Buffalo Sabres, Arizona Coyotes"
+Hudson,Fasching,"Buffalo Sabres, Arizona Coyotes, New York Islanders"
 Justin,Bailey,"Buffalo Sabres, Philadelphia Flyers, Vancouver Canucks"
 Jack,Eichel,"Buffalo Sabres, Vegas Golden Knights"
-Evan,Rodrigues,"Buffalo Sabres, Pittsburgh Penguins"
+Evan,Rodrigues,"Buffalo Sabres, Pittsburgh Penguins, Colorado Avalanche"
 Casey,Nelson,Buffalo Sabres
 Jason,Kasdorf,Buffalo Sabres
 Linus,Ullmark,"Buffalo Sabres, Boston Bruins"
 Bud,Holloway,Montréal Canadiens
 Morgan,Ellis,Montréal Canadiens
 Darren,Dietz,Montréal Canadiens
-Charles,Hudon,Montréal Canadiens
+Charles,Hudon,"Montréal Canadiens, Colorado Avalanche"
 Michael,McCarron,"Montréal Canadiens, Nashville Predators"
 Joel,Hanley,"Montréal Canadiens, Arizona Coyotes, Dallas Stars"
 Daniel,Carr,"Montréal Canadiens, Vegas Golden Knights, Nashville Predators, Washington Capitals"
 Brett,Lernout,Montréal Canadiens
 Ryan,Johnston,Montréal Canadiens
 Mike,Condon,"Montréal Canadiens, Pittsburgh Penguins, Ottawa Senators"
-Charlie,Lindgren,"Montréal Canadiens, St. Louis Blues"
+Charlie,Lindgren,"Montréal Canadiens, St. Louis Blues, Washington Capitals"
 Chris,Wideman,"Ottawa Senators, Florida Panthers, Edmonton Oilers, Montréal Canadiens"
 Ryan,Dzingel,"Ottawa Senators, Columbus Blue Jackets, Carolina Hurricanes, San Jose Sharks, Arizona Coyotes"
 Max,McCormick,"Ottawa Senators, Carolina Hurricanes, Seattle Kraken"
 Fredrik,Claesson,"Ottawa Senators, New York Rangers, New Jersey Devils, Tampa Bay Lightning, San Jose Sharks"
-Buddy,Robinson,"Ottawa Senators, Calgary Flames, Anaheim Ducks"
+Buddy,Robinson,"Ottawa Senators, Calgary Flames, Anaheim Ducks, Chicago Blackhawks"
 Nicholas,Paul,"Ottawa Senators, Tampa Bay Lightning"
-Ben,Harpur,"Ottawa Senators, Nashville Predators"
+Ben,Harpur,"Ottawa Senators, Nashville Predators, New York Rangers"
 Matthew,O'Connor,Ottawa Senators
-Byron,Froese,"Toronto Maple Leafs, Tampa Bay Lightning, Montréal Canadiens, Calgary Flames"
+Byron,Froese,"Toronto Maple Leafs, Tampa Bay Lightning, Montréal Canadiens, Calgary Flames, Vegas Golden Knights"
 Zach,Hyman,"Toronto Maple Leafs, Edmonton Oilers"
 Brendan,Leipsic,"Toronto Maple Leafs, Vancouver Canucks, Vegas Golden Knights, Los Angeles Kings, Washington Capitals"
-Connor,Brown,"Toronto Maple Leafs, Ottawa Senators"
+Connor,Brown,"Toronto Maple Leafs, Ottawa Senators, Washington Capitals"
 Viktor,Loov,Toronto Maple Leafs
 Tobias,Lindberg,Toronto Maple Leafs
 Frederik,Gauthier,"Toronto Maple Leafs, Arizona Coyotes, New Jersey Devils"
 Rinat,Valiev,"Toronto Maple Leafs, Montréal Canadiens"
 William,Nylander,Toronto Maple Leafs
-Kasperi,Kapanen,"Toronto Maple Leafs, Pittsburgh Penguins"
-Nikita,Soshnikov,"Toronto Maple Leafs, St. Louis Blues"
+Kasperi,Kapanen,"Toronto Maple Leafs, Pittsburgh Penguins, St. Louis Blues"
+Nikita,Soshnikov,"Toronto Maple Leafs, St. Louis Blues, New York Islanders"
 Garret,Sparks,"Toronto Maple Leafs, Vegas Golden Knights, Los Angeles Kings"
-Phillip,Di Giuseppe,"Carolina Hurricanes, Nashville Predators, New York Rangers"
-Brock,McGinn,"Carolina Hurricanes, Pittsburgh Penguins"
+Phillip,Di Giuseppe,"Carolina Hurricanes, Nashville Predators, New York Rangers, Vancouver Canucks"
+Brock,McGinn,"Carolina Hurricanes, Pittsburgh Penguins, Anaheim Ducks"
 Trevor,Carrick,"Carolina Hurricanes, San Jose Sharks"
 Jaccob,Slavin,Carolina Hurricanes
 Brett,Pesce,Carolina Hurricanes
@@ -7379,18 +7379,18 @@ Connor,Brickley,"Florida Panthers, New York Rangers"
 John,McFarland,Florida Panthers
 Logan,Shaw,"Florida Panthers, Anaheim Ducks, Montréal Canadiens, Winnipeg Jets, Ottawa Senators"
 Kyle,Rau,"Florida Panthers, Minnesota Wild"
-Mike,Matheson,"Florida Panthers, Pittsburgh Penguins"
+Mike,Matheson,"Florida Panthers, Pittsburgh Penguins, Montréal Canadiens"
 Yanni,Gourde,"Tampa Bay Lightning, Seattle Kraken"
 Joel,Vermin,Tampa Bay Lightning
 Chandler,Stephenson,"Washington Capitals, Vegas Golden Knights"
 Mark,McNeill,"Chicago Blackhawks, Dallas Stars"
-Erik,Gustafsson,"Chicago Blackhawks, Calgary Flames, Philadelphia Flyers, Montréal Canadiens"
+Erik,Gustafsson,"Chicago Blackhawks, Calgary Flames, Philadelphia Flyers, Montréal Canadiens, Toronto Maple Leafs, Washington Capitals"
 Vinnie,Hinostroza,"Chicago Blackhawks, Arizona Coyotes, Florida Panthers, Buffalo Sabres"
 Viktor,Svedberg,Chicago Blackhawks
 Dennis,Rasmussen,"Chicago Blackhawks, Anaheim Ducks"
 Tanner,Kero,"Chicago Blackhawks, Dallas Stars"
 Artemi,Panarin,"Chicago Blackhawks, Columbus Blue Jackets, New York Rangers"
-Andreas,Athanasiou,"Detroit Red Wings, Edmonton Oilers, Los Angeles Kings"
+Andreas,Athanasiou,"Detroit Red Wings, Edmonton Oilers, Los Angeles Kings, Chicago Blackhawks"
 Anthony,Mantha,"Detroit Red Wings, Washington Capitals"
 Tomas,Nosek,"Detroit Red Wings, Vegas Golden Knights, Boston Bruins"
 Dylan,Larkin,Detroit Red Wings
@@ -7400,11 +7400,11 @@ Joel,Edmundson,"St. Louis Blues, Carolina Hurricanes, Montréal Canadiens"
 Colton,Parayko,St. Louis Blues
 Robby,Fabbri,"St. Louis Blues, Detroit Red Wings"
 Jordan,Binnington,St. Louis Blues
-Pheonix,Copley,"St. Louis Blues, Washington Capitals"
+Pheonix,Copley,"St. Louis Blues, Washington Capitals, Los Angeles Kings"
 Turner,Elson,"Calgary Flames, Detroit Red Wings"
 Patrick,Sieloff,"Calgary Flames, Ottawa Senators"
 Hunter,Shinkaruk,"Calgary Flames, Vancouver Canucks"
-Garnet,Hathaway,"Calgary Flames, Washington Capitals"
+Garnet,Hathaway,"Calgary Flames, Washington Capitals, Boston Bruins"
 Oliver,Kylington,Calgary Flames
 Jakub,Nakladal,"Calgary Flames, Carolina Hurricanes"
 Chris,Bigras,Colorado Avalanche
@@ -7423,58 +7423,58 @@ Jake,Virtanen,Vancouver Canucks
 Jared,McCann,"Vancouver Canucks, Florida Panthers, Pittsburgh Penguins, Seattle Kraken"
 Nikita,Tryamkin,Vancouver Canucks
 Shea,Theodore,"Anaheim Ducks, Vegas Golden Knights"
-Nick,Ritchie,"Anaheim Ducks, Boston Bruins, Toronto Maple Leafs, Arizona Coyotes"
+Nick,Ritchie,"Anaheim Ducks, Boston Bruins, Toronto Maple Leafs, Arizona Coyotes, Calgary Flames"
 Stephen,Johns,Dallas Stars
 Radek,Faksa,Dallas Stars
 Esa,Lindell,Dallas Stars
 Devin,Shore,"Dallas Stars, Anaheim Ducks, Columbus Blue Jackets, Edmonton Oilers"
-Mattias,Janmark,"Dallas Stars, Chicago Blackhawks, Vegas Golden Knights"
-Jason,Dickinson,"Dallas Stars, Vancouver Canucks"
+Mattias,Janmark,"Dallas Stars, Chicago Blackhawks, Vegas Golden Knights, Edmonton Oilers"
+Jason,Dickinson,"Dallas Stars, Vancouver Canucks, Chicago Blackhawks"
 Nic,Dowd,"Los Angeles Kings, Vancouver Canucks, Washington Capitals"
 Derek,Forbort,"Los Angeles Kings, Calgary Flames, Winnipeg Jets, Boston Bruins"
-Kevin,Gravel,"Los Angeles Kings, Edmonton Oilers, Toronto Maple Leafs"
+Kevin,Gravel,"Los Angeles Kings, Edmonton Oilers, Toronto Maple Leafs, Nashville Predators"
 Michael,Mersch,Los Angeles Kings
 Joonas,Donskoi,"San Jose Sharks, Colorado Avalanche, Seattle Kraken"
 Dylan,DeMelo,"San Jose Sharks, Ottawa Senators, Winnipeg Jets"
-Ryan,Carpenter,"San Jose Sharks, Vegas Golden Knights, Chicago Blackhawks, Calgary Flames"
+Ryan,Carpenter,"San Jose Sharks, Vegas Golden Knights, Chicago Blackhawks, Calgary Flames, New York Rangers"
 Nikolay,Goldobin,"San Jose Sharks, Vancouver Canucks"
-Oliver,Bjorkstrand,Columbus Blue Jackets
-Sonny,Milano,"Columbus Blue Jackets, Anaheim Ducks"
+Oliver,Bjorkstrand,"Columbus Blue Jackets, Seattle Kraken"
+Sonny,Milano,"Columbus Blue Jackets, Anaheim Ducks, Washington Capitals"
 Markus,Hannikainen,Columbus Blue Jackets
 Dean,Kukan,Columbus Blue Jackets
-Joonas,Korpisalo,Columbus Blue Jackets
+Joonas,Korpisalo,"Columbus Blue Jackets, Los Angeles Kings"
 Mike,Reilly,"Minnesota Wild, Montréal Canadiens, Ottawa Senators, Boston Bruins"
 Kurtis,Gabriel,"Minnesota Wild, New Jersey Devils, San Jose Sharks, Chicago Blackhawks"
 Christoph,Bertschy,Minnesota Wild
-Gustav,Olofsson,"Minnesota Wild, Montréal Canadiens"
+Gustav,Olofsson,"Minnesota Wild, Montréal Canadiens, Seattle Kraken"
 Michael,Keranen,Minnesota Wild
 Scott,Kosmachuk,Winnipeg Jets
 JC,Lipon,Winnipeg Jets
-Nic,Petan,"Winnipeg Jets, Toronto Maple Leafs, Vancouver Canucks"
+Nic,Petan,"Winnipeg Jets, Toronto Maple Leafs, Vancouver Canucks, Minnesota Wild"
 Josh,Morrissey,Winnipeg Jets
 Nikolaj,Ehlers,Winnipeg Jets
 Chase,De Leo,"Winnipeg Jets, Anaheim Ducks, New Jersey Devils"
 Brandon,Tanev,"Winnipeg Jets, Pittsburgh Penguins, Seattle Kraken"
 Connor,Hellebuyck,Winnipeg Jets
 Laurent,Dauphin,"Arizona Coyotes, Montréal Canadiens"
-Max,Domi,"Arizona Coyotes, Montréal Canadiens, Columbus Blue Jackets, Carolina Hurricanes"
+Max,Domi,"Arizona Coyotes, Montréal Canadiens, Columbus Blue Jackets, Carolina Hurricanes, Chicago Blackhawks, Dallas Stars"
 Niklas,Treutle,Arizona Coyotes
 Blake,Coleman,"New Jersey Devils, Tampa Bay Lightning, Calgary Flames"
 Ben,Thomson,New Jersey Devils
 John,Quenneville,"New Jersey Devils, Chicago Blackhawks"
 Blake,Speers,"New Jersey Devils, Arizona Coyotes"
 Nick,Lappin,New Jersey Devils
-Kevin,Rooney,"New Jersey Devils, New York Rangers"
+Kevin,Rooney,"New Jersey Devils, New York Rangers, Calgary Flames"
 Yohann,Auvitu,"New Jersey Devils, Edmonton Oilers"
 Michael,Kapla,New Jersey Devils
 Connor,Jones,New York Islanders
 Joshua,Ho-Sang,New York Islanders
 Mathew,Barzal,New York Islanders
-Anthony,Beauvillier,New York Islanders
+Anthony,Beauvillier,"New York Islanders, Vancouver Canucks"
 Jimmy,Vesey,"New York Rangers, Buffalo Sabres, Toronto Maple Leafs, Vancouver Canucks, New Jersey Devils"
 Boo,Nieves,New York Rangers
 Pavel,Buchnevich,"New York Rangers, St. Louis Blues"
-Robert,Hagg,"Philadelphia Flyers, Buffalo Sabres, Florida Panthers"
+Robert,Hagg,"Philadelphia Flyers, Buffalo Sabres, Florida Panthers, Detroit Red Wings"
 Samuel,Morin,Philadelphia Flyers
 Travis,Konecny,Philadelphia Flyers
 Ivan,Provorov,Philadelphia Flyers
@@ -7483,17 +7483,17 @@ Mike,Vecchione,"Philadelphia Flyers, Washington Capitals"
 Anthony,Stolarz,"Philadelphia Flyers, Edmonton Oilers, Anaheim Ducks"
 Carter,Rowney,"Pittsburgh Penguins, Anaheim Ducks, Detroit Red Wings"
 Jake,Guentzel,Pittsburgh Penguins
-Jean-Sebastien,Dea,"Pittsburgh Penguins, New Jersey Devils, Buffalo Sabres"
+Jean-Sebastien,Dea,"Pittsburgh Penguins, New Jersey Devils, Buffalo Sabres, Arizona Coyotes"
 Tristan,Jarry,Pittsburgh Penguins
 Rob,O'Gara,"Boston Bruins, New York Rangers"
 Sean,Kuraly,"Boston Bruins, Columbus Blue Jackets"
 Matt,Grzelcyk,Boston Bruins
-Anton,Blidh,Boston Bruins
+Anton,Blidh,"Boston Bruins, Colorado Avalanche"
 Peter,Cehlarik,Boston Bruins
 Danton,Heinen,"Boston Bruins, Anaheim Ducks, Pittsburgh Penguins"
 Jakob,Forsbacka Karlsson,Boston Bruins
 Brandon,Carlo,Boston Bruins
-Austin,Czarnik,"Boston Bruins, Calgary Flames, New York Islanders, Seattle Kraken"
+Austin,Czarnik,"Boston Bruins, Calgary Flames, New York Islanders, Seattle Kraken, Detroit Red Wings"
 Charlie,McAvoy,Boston Bruins
 Zane,McIntyre,Boston Bruins
 Erik,Burgdoerfer,"Buffalo Sabres, Ottawa Senators"
@@ -7502,18 +7502,18 @@ Sean,Malone,"Buffalo Sabres, Nashville Predators"
 William,Carrier,"Buffalo Sabres, Vegas Golden Knights"
 Nick,Baptiste,Buffalo Sabres
 Brendan,Guhle,"Buffalo Sabres, Anaheim Ducks"
-Alex,Nylander,"Buffalo Sabres, Chicago Blackhawks"
+Alex,Nylander,"Buffalo Sabres, Chicago Blackhawks, Pittsburgh Penguins"
 C.J.,Smith,"Buffalo Sabres, Carolina Hurricanes"
 Artturi,Lehkonen,"Montréal Canadiens, Colorado Avalanche"
 Nikita,Scherbak,"Montréal Canadiens, Los Angeles Kings"
 Mikhail,Sergachev,"Montréal Canadiens, Tampa Bay Lightning"
 Christopher,DiDomenico,Ottawa Senators
-Andreas,Englund,Ottawa Senators
-Colin,White,Ottawa Senators
+Andreas,Englund,"Ottawa Senators, Chicago Blackhawks, Colorado Avalanche"
+Colin,White,"Ottawa Senators, Florida Panthers"
 Thomas,Chabot,Ottawa Senators
 Mitchell,Marner,Toronto Maple Leafs
 Auston,Matthews,Toronto Maple Leafs
-Nikita,Zaitsev,"Toronto Maple Leafs, Ottawa Senators"
+Nikita,Zaitsev,"Toronto Maple Leafs, Ottawa Senators, Chicago Blackhawks"
 Antoine,Bibeau,"Toronto Maple Leafs, Colorado Avalanche"
 Martin,Frk,"Carolina Hurricanes, Detroit Red Wings, Los Angeles Kings"
 Valentin,Zykov,"Carolina Hurricanes, Edmonton Oilers, Vegas Golden Knights"
@@ -7523,9 +7523,9 @@ Andrew,Poturalski,Carolina Hurricanes
 Alex,Nedeljkovic,"Carolina Hurricanes, Detroit Red Wings"
 Jorge,Alves,Carolina Hurricanes
 Shane,Harper,Florida Panthers
-MacKenzie,Weegar,Florida Panthers
+MacKenzie,Weegar,"Florida Panthers, Calgary Flames"
 Ian,McCoshen,Florida Panthers
-Denis,Malgin,"Florida Panthers, Toronto Maple Leafs"
+Denis,Malgin,"Florida Panthers, Toronto Maple Leafs, Colorado Avalanche"
 Matthew,Peca,"Tampa Bay Lightning, Montréal Canadiens, Ottawa Senators, St. Louis Blues"
 Tanner,Richard,Tampa Bay Lightning
 Jake,Dotchin,"Tampa Bay Lightning, Anaheim Ducks"
@@ -7533,19 +7533,19 @@ Adam,Erne,"Tampa Bay Lightning, Detroit Red Wings"
 Brayden,Point,Tampa Bay Lightning
 Garrett,Mitchell,Washington Capitals
 Riley,Barber,"Washington Capitals, Montréal Canadiens, Detroit Red Wings"
-Zach,Sanford,"Washington Capitals, St. Louis Blues, Ottawa Senators, Winnipeg Jets"
-Jakub,Vrana,"Washington Capitals, Detroit Red Wings"
-Tyler,Motte,"Chicago Blackhawks, Vancouver Canucks, Columbus Blue Jackets, New York Rangers"
-John,Hayden,"Chicago Blackhawks, New Jersey Devils, Arizona Coyotes, Buffalo Sabres"
+Zach,Sanford,"Washington Capitals, St. Louis Blues, Ottawa Senators, Winnipeg Jets, Nashville Predators"
+Jakub,Vrana,"Washington Capitals, Detroit Red Wings, St. Louis Blues"
+Tyler,Motte,"Chicago Blackhawks, Vancouver Canucks, Columbus Blue Jackets, New York Rangers, Ottawa Senators"
+John,Hayden,"Chicago Blackhawks, New Jersey Devils, Arizona Coyotes, Buffalo Sabres, Seattle Kraken"
 Nick,Schmaltz,"Chicago Blackhawks, Arizona Coyotes"
 Gustav,Forsling,"Chicago Blackhawks, Florida Panthers"
 Michal,Kempny,"Chicago Blackhawks, Washington Capitals"
 Nick,Jensen,"Detroit Red Wings, Washington Capitals"
 Robbie,Russo,Detroit Red Wings
-Tyler,Bertuzzi,Detroit Red Wings
+Tyler,Bertuzzi,"Detroit Red Wings, Boston Bruins"
 Matt,Lorito,Detroit Red Wings
-Evgeny,Svechnikov,"Detroit Red Wings, Winnipeg Jets"
-Dan,Renouf,"Detroit Red Wings, Colorado Avalanche"
+Evgeny,Svechnikov,"Detroit Red Wings, Winnipeg Jets, San Jose Sharks"
+Dan,Renouf,"Detroit Red Wings, Colorado Avalanche, Boston Bruins"
 Jared,Coreau,Detroit Red Wings
 Mike,Liambas,"Nashville Predators, Anaheim Ducks"
 Frederick,Gaudreau,"Nashville Predators, Pittsburgh Penguins, Minnesota Wild"
@@ -7553,42 +7553,42 @@ Vladislav,Kamenev,"Nashville Predators, Colorado Avalanche"
 Alexandre,Carrier,Nashville Predators
 Wade,Megan,"St. Louis Blues, Detroit Red Wings"
 Jordan,Schmaltz,St. Louis Blues
-Ivan,Barbashev,St. Louis Blues
-Mark,Jankowski,"Calgary Flames, Pittsburgh Penguins, Buffalo Sabres"
+Ivan,Barbashev,"St. Louis Blues, Vegas Golden Knights"
+Mark,Jankowski,"Calgary Flames, Pittsburgh Penguins, Buffalo Sabres, Nashville Predators"
 Rasmus,Andersson,Calgary Flames
-Matthew,Tkachuk,Calgary Flames
-Jon,Gillies,"Calgary Flames, New Jersey Devils, St. Louis Blues"
-David,Rittich,"Calgary Flames, Toronto Maple Leafs, Nashville Predators"
+Matthew,Tkachuk,"Calgary Flames, Florida Panthers"
+Jon,Gillies,"Calgary Flames, New Jersey Devils, St. Louis Blues, Columbus Blue Jackets"
+David,Rittich,"Calgary Flames, Toronto Maple Leafs, Nashville Predators, Winnipeg Jets"
 Samuel,Henley,Colorado Avalanche
 J.T.,Compher,Colorado Avalanche
 Anton,Lindholm,Colorado Avalanche
-A.J.,Greer,"Colorado Avalanche, New Jersey Devils"
-Tyson,Jost,"Colorado Avalanche, Minnesota Wild"
+A.J.,Greer,"Colorado Avalanche, New Jersey Devils, Boston Bruins"
+Tyson,Jost,"Colorado Avalanche, Minnesota Wild, Buffalo Sabres"
 Jeremy,Smith,Colorado Avalanche
 Spencer,Martin,"Colorado Avalanche, Vancouver Canucks"
 Dillon,Simpson,Edmonton Oilers
-Matt,Benning,"Edmonton Oilers, Nashville Predators"
-Jesse,Puljujarvi,Edmonton Oilers
-Drake,Caggiula,"Edmonton Oilers, Chicago Blackhawks, Buffalo Sabres, Arizona Coyotes"
+Matt,Benning,"Edmonton Oilers, Nashville Predators, San Jose Sharks"
+Jesse,Puljujarvi,"Edmonton Oilers, Carolina Hurricanes"
+Drake,Caggiula,"Edmonton Oilers, Chicago Blackhawks, Buffalo Sabres, Arizona Coyotes, Pittsburgh Penguins"
 Anton,Rodin,Vancouver Canucks
 Joseph,Cramarossa,"Vancouver Canucks, Anaheim Ducks, Minnesota Wild"
 Joseph,LaBate,Vancouver Canucks
 Evan,McEneny,Vancouver Canucks
 Brock,Boeser,Vancouver Canucks
-Troy,Stecher,"Vancouver Canucks, Detroit Red Wings, Los Angeles Kings"
+Troy,Stecher,"Vancouver Canucks, Detroit Red Wings, Los Angeles Kings, Calgary Flames, Arizona Coyotes"
 Griffen,Molino,Vancouver Canucks
 Nicolas,Kerdiles,Anaheim Ducks
-Jaycob,Megna,"Anaheim Ducks, San Jose Sharks"
+Jaycob,Megna,"Anaheim Ducks, San Jose Sharks, Seattle Kraken"
 Nick,Sorensen,Anaheim Ducks
 Brandon,Montour,"Anaheim Ducks, Buffalo Sabres, Florida Panthers"
-Ondrej,Kase,"Anaheim Ducks, Boston Bruins, Toronto Maple Leafs"
-Jacob,Larsson,Anaheim Ducks
+Ondrej,Kase,"Anaheim Ducks, Boston Bruins, Toronto Maple Leafs, Carolina Hurricanes"
+Jacob,Larsson,"Anaheim Ducks, Ottawa Senators"
 Kalle,Kossila,Anaheim Ducks
 Justin,Dowling,"Dallas Stars, Vancouver Canucks"
 Gemel,Smith,"Dallas Stars, Boston Bruins, Tampa Bay Lightning, Detroit Red Wings"
 Remi,Elie,"Dallas Stars, Buffalo Sabres, Tampa Bay Lightning"
 Julius,Honka,Dallas Stars
-Denis,Gurianov,Dallas Stars
+Denis,Gurianov,"Dallas Stars, Montréal Canadiens"
 Paul,LaDue,"Los Angeles Kings, New York Islanders"
 Jonny,Brodzinski,"Los Angeles Kings, San Jose Sharks, New York Rangers"
 Adrian,Kempe,Los Angeles Kings
@@ -7596,12 +7596,12 @@ Marcus,Sorensen,San Jose Sharks
 Tim,Heed,San Jose Sharks
 Danny,O'Regan,"San Jose Sharks, Buffalo Sabres, Anaheim Ducks"
 Kevin,Labanc,San Jose Sharks
-Timo,Meier,San Jose Sharks
+Timo,Meier,"San Jose Sharks, New Jersey Devils"
 Aaron,Dell,"San Jose Sharks, New Jersey Devils, Buffalo Sabres"
-Lukas,Sedlak,Columbus Blue Jackets
+Lukas,Sedlak,"Columbus Blue Jackets, Philadelphia Flyers, Colorado Avalanche"
 T.J.,Tynan,"Columbus Blue Jackets, Colorado Avalanche, Los Angeles Kings"
 Zach,Werenski,Columbus Blue Jackets
-Gabriel,Carlsson,Columbus Blue Jackets
+Gabriel,Carlsson,"Columbus Blue Jackets, Washington Capitals"
 Markus,Nutivaara,"Columbus Blue Jackets, Florida Panthers"
 Patrick,Cannone,Minnesota Wild
 Zack,Mitchell,Minnesota Wild
@@ -7611,15 +7611,15 @@ Nelson,Nogier,Winnipeg Jets
 Kyle,Connor,Winnipeg Jets
 Jack,Roslovic,"Winnipeg Jets, Columbus Blue Jackets"
 Patrik,Laine,"Winnipeg Jets, Columbus Blue Jackets"
-Eric,Comrie,"Winnipeg Jets, Detroit Red Wings, New Jersey Devils"
+Eric,Comrie,"Winnipeg Jets, Detroit Red Wings, New Jersey Devils, Buffalo Sabres"
 Brendan,Perlini,"Arizona Coyotes, Chicago Blackhawks, Detroit Red Wings, Edmonton Oilers"
-Tony,DeAngelo,"Arizona Coyotes, New York Rangers, Carolina Hurricanes"
+Tony,DeAngelo,"Arizona Coyotes, New York Rangers, Carolina Hurricanes, Philadelphia Flyers"
 Christian,Dvorak,"Arizona Coyotes, Montréal Canadiens"
 Christian,Fischer,Arizona Coyotes
-Dylan,Strome,"Arizona Coyotes, Chicago Blackhawks"
+Dylan,Strome,"Arizona Coyotes, Chicago Blackhawks, Washington Capitals"
 Lawson,Crouse,Arizona Coyotes
 Clayton,Keller,Arizona Coyotes
-Jakob,Chychrun,Arizona Coyotes
+Jakob,Chychrun,"Arizona Coyotes, Ottawa Senators"
 Marek,Langhamer,Arizona Coyotes
 Will,Butcher,"New Jersey Devils, Buffalo Sabres"
 Jesper,Bratt,New Jersey Devils
@@ -7628,56 +7628,56 @@ Kenneth,Appleby,New Jersey Devils
 Michael,Dal Colle,New York Islanders
 Tanner,Fritz,New York Islanders
 Sebastian,Aho,New York Islanders
-Steven,Fogarty,"New York Rangers, Buffalo Sabres, Boston Bruins"
+Steven,Fogarty,"New York Rangers, Buffalo Sabres, Boston Bruins, Minnesota Wild"
 John,Gilmour,"New York Rangers, Buffalo Sabres"
-Vinni,Lettieri,"New York Rangers, Anaheim Ducks"
+Vinni,Lettieri,"New York Rangers, Anaheim Ducks, Boston Bruins"
 Lias,Andersson,"New York Rangers, Los Angeles Kings"
 Filip,Chytil,New York Rangers
 Neal,Pionk,"New York Rangers, Winnipeg Jets"
 Brandon,Halverson,New York Rangers
-Alexandar,Georgiev,New York Rangers
+Alexandar,Georgiev,"New York Rangers, Colorado Avalanche"
 Will,O'Neill,Philadelphia Flyers
 Tyrell,Goulbourne,Philadelphia Flyers
 Travis,Sanheim,Philadelphia Flyers
-Oskar,Lindblom,Philadelphia Flyers
+Oskar,Lindblom,"Philadelphia Flyers, San Jose Sharks"
 Danick,Martel,"Philadelphia Flyers, Tampa Bay Lightning"
 Nolan,Patrick,"Philadelphia Flyers, Vegas Golden Knights"
-Alex,Lyon,"Philadelphia Flyers, Carolina Hurricanes"
-Zach,Aston-Reese,"Pittsburgh Penguins, Anaheim Ducks"
+Alex,Lyon,"Philadelphia Flyers, Carolina Hurricanes, Florida Panthers"
+Zach,Aston-Reese,"Pittsburgh Penguins, Anaheim Ducks, Toronto Maple Leafs"
 Casey,DeSmith,Pittsburgh Penguins
 Colby,Cave,"Boston Bruins, Edmonton Oilers"
 Ryan,Donato,"Boston Bruins, Minnesota Wild, San Jose Sharks, Seattle Kraken"
-Anders,Bjork,"Boston Bruins, Buffalo Sabres"
+Anders,Bjork,"Boston Bruins, Buffalo Sabres, Chicago Blackhawks"
 Jake,DeBrusk,Boston Bruins
-Kyle,Criscuolo,"Buffalo Sabres, Detroit Red Wings"
+Kyle,Criscuolo,"Buffalo Sabres, Detroit Red Wings, San Jose Sharks"
 Victor,Antipin,Buffalo Sabres
 Casey,Mittelstadt,Buffalo Sabres
 Adam,Wilcox,Buffalo Sabres
 Noah,Juulsen,"Montréal Canadiens, Florida Panthers, Vancouver Canucks"
-Victor,Mete,"Montréal Canadiens, Ottawa Senators"
+Victor,Mete,"Montréal Canadiens, Ottawa Senators, Toronto Maple Leafs"
 Jakub,Jerabek,"Montréal Canadiens, Washington Capitals, St. Louis Blues"
 Ben,Sexton,Ottawa Senators
 Jack,Rodewald,Ottawa Senators
 Filip,Chlapik,Ottawa Senators
-Christian,Wolanin,"Ottawa Senators, Los Angeles Kings, Buffalo Sabres"
+Christian,Wolanin,"Ottawa Senators, Los Angeles Kings, Buffalo Sabres, Vancouver Canucks"
 Christian,Jaros,"Ottawa Senators, San Jose Sharks, New Jersey Devils"
 Logan,Brown,"Ottawa Senators, St. Louis Blues"
 Alex,Formenton,Ottawa Senators
 Justin,Holl,Toronto Maple Leafs
-Andreas,Johnsson,"Toronto Maple Leafs, New Jersey Devils"
+Andreas,Johnsson,"Toronto Maple Leafs, New Jersey Devils, San Jose Sharks"
 Travis,Dermott,"Toronto Maple Leafs, Vancouver Canucks"
 Calle,Rosen,"Toronto Maple Leafs, Colorado Avalanche, St. Louis Blues"
 Andreas,Borgman,"Toronto Maple Leafs, Tampa Bay Lightning"
-Haydn,Fleury,"Carolina Hurricanes, Anaheim Ducks, Seattle Kraken"
-Roland,McKeown,Carolina Hurricanes
+Haydn,Fleury,"Carolina Hurricanes, Anaheim Ducks, Seattle Kraken, Tampa Bay Lightning"
+Roland,McKeown,"Carolina Hurricanes, Nashville Predators"
 Warren,Foegele,"Carolina Hurricanes, Edmonton Oilers"
 Nicolas,Roy,"Carolina Hurricanes, Vegas Golden Knights"
 Janne,Kuokkanen,"Carolina Hurricanes, New Jersey Devils"
 Martin,Necas,Carolina Hurricanes
 Chase,Balisy,Florida Panthers
 Curtis,Valk,Florida Panthers
-Dryden,Hunt,"Florida Panthers, Arizona Coyotes, New York Rangers"
-Henrik,Borgstrom,"Florida Panthers, Chicago Blackhawks"
+Dryden,Hunt,"Florida Panthers, Arizona Coyotes, New York Rangers, Toronto Maple Leafs, Colorado Avalanche"
+Henrik,Borgstrom,"Florida Panthers, Chicago Blackhawks, Washington Capitals"
 Maxim,Mamin,Florida Panthers
 Owen,Tippett,"Florida Panthers, Philadelphia Flyers"
 Henrik,Haapala,Florida Panthers
@@ -7690,19 +7690,19 @@ Nathan,Walker,"Washington Capitals, Edmonton Oilers, St. Louis Blues"
 Shane,Gersich,Washington Capitals
 Carl,Dahlstrom,"Chicago Blackhawks, Winnipeg Jets, Toronto Maple Leafs"
 Dylan,Sikura,"Chicago Blackhawks, Vegas Golden Knights, Colorado Avalanche"
-Matthew,Highmore,"Chicago Blackhawks, Vancouver Canucks"
-Alex,DeBrincat,Chicago Blackhawks
+Matthew,Highmore,"Chicago Blackhawks, Vancouver Canucks, St. Louis Blues"
+Alex,DeBrincat,"Chicago Blackhawks, Ottawa Senators"
 Blake,Hillman,Chicago Blackhawks
 David,Kampf,"Chicago Blackhawks, Toronto Maple Leafs"
 Victor,Ejdsell,Chicago Blackhawks
-Jan,Rutta,"Chicago Blackhawks, Tampa Bay Lightning"
+Jan,Rutta,"Chicago Blackhawks, Tampa Bay Lightning, Pittsburgh Penguins"
 Jeff,Glass,Chicago Blackhawks
 Scott,Foster,Chicago Blackhawks
-Collin,Delia,Chicago Blackhawks
+Collin,Delia,"Chicago Blackhawks, Vancouver Canucks"
 Dominic,Turgeon,Detroit Red Wings
 Joe,Hicketts,Detroit Red Wings
 Samuel,Girard,"Nashville Predators, Colorado Avalanche"
-Eeli,Tolvanen,Nashville Predators
+Eeli,Tolvanen,"Nashville Predators, Seattle Kraken"
 Sammy,Blais,"St. Louis Blues, New York Rangers"
 Vince,Dunn,"St. Louis Blues, Seattle Kraken"
 Tage,Thompson,"St. Louis Blues, Buffalo Sabres"
@@ -7714,7 +7714,7 @@ Spencer,Foo,Calgary Flames
 Dominic,Toninato,"Colorado Avalanche, Florida Panthers, Winnipeg Jets"
 Alexander,Kerfoot,"Colorado Avalanche, Toronto Maple Leafs"
 Andrei,Mironov,Colorado Avalanche
-Ethan,Bear,"Edmonton Oilers, Carolina Hurricanes"
+Ethan,Bear,"Edmonton Oilers, Carolina Hurricanes, Vancouver Canucks"
 Kailer,Yamamoto,Edmonton Oilers
 Ashton,Sautner,Vancouver Canucks
 Adam,Gaudette,"Vancouver Canucks, Chicago Blackhawks, Ottawa Senators"
@@ -7741,28 +7741,28 @@ Eric,Robinson,Columbus Blue Jackets
 Nick,Seeler,"Minnesota Wild, Chicago Blackhawks, Philadelphia Flyers"
 Carson,Soucy,"Minnesota Wild, Seattle Kraken"
 Louie,Belpedio,Minnesota Wild
-Jordan,Greenway,Minnesota Wild
-Luke,Kunin,"Minnesota Wild, Nashville Predators"
+Jordan,Greenway,"Minnesota Wild, Buffalo Sabres"
+Luke,Kunin,"Minnesota Wild, Nashville Predators, San Jose Sharks"
 Justin,Kloos,"Minnesota Wild, Anaheim Ducks"
 Tucker,Poolman,"Winnipeg Jets, Vancouver Canucks"
-Brendan,Lemieux,"Winnipeg Jets, New York Rangers, Los Angeles Kings"
+Brendan,Lemieux,"Winnipeg Jets, New York Rangers, Los Angeles Kings, Philadelphia Flyers"
 Sami,Niku,"Winnipeg Jets, Montréal Canadiens"
 Mario,Kempe,Arizona Coyotes
 Dakota,Mermis,"Arizona Coyotes, New Jersey Devils, Minnesota Wild"
 Trevor,Murphy,Arizona Coyotes
 Nick,Merkley,"Arizona Coyotes, New Jersey Devils, San Jose Sharks"
-Kyle,Capobianco,Arizona Coyotes
-Adin,Hill,"Arizona Coyotes, San Jose Sharks"
+Kyle,Capobianco,"Arizona Coyotes, Winnipeg Jets"
+Adin,Hill,"Arizona Coyotes, San Jose Sharks, Vegas Golden Knights"
 Tomas,Hyka,Vegas Golden Knights
 Vadim,Shipachyov,Vegas Golden Knights
 Zach,Whitecloud,Vegas Golden Knights
 Maxime,Lagace,"Vegas Golden Knights, Pittsburgh Penguins, Tampa Bay Lightning"
 Oscar,Dansk,Vegas Golden Knights
-Dylan,Ferguson,Vegas Golden Knights
+Dylan,Ferguson,"Vegas Golden Knights, Ottawa Senators"
 Josh,Jacobs,New Jersey Devils
-Colton,White,New Jersey Devils
-Brett,Seney,"New Jersey Devils, Toronto Maple Leafs"
-Joey,Anderson,"New Jersey Devils, Toronto Maple Leafs"
+Colton,White,"New Jersey Devils, Anaheim Ducks"
+Brett,Seney,"New Jersey Devils, Toronto Maple Leafs, Chicago Blackhawks"
+Joey,Anderson,"New Jersey Devils, Toronto Maple Leafs, Chicago Blackhawks"
 Brandon,Gignac,New Jersey Devils
 Nathan,Bastian,"New Jersey Devils, Seattle Kraken"
 Michael,McLeod,New Jersey Devils
@@ -7773,12 +7773,12 @@ Ryan,Lindgren,New York Rangers
 Libor,Hajek,New York Rangers
 Brett,Howden,"New York Rangers, Vegas Golden Knights"
 Tim,Gettinger,New York Rangers
-Nicolas,Aube-Kubel,"Philadelphia Flyers, Colorado Avalanche"
+Nicolas,Aube-Kubel,"Philadelphia Flyers, Colorado Avalanche, Toronto Maple Leafs, Washington Capitals"
 Mark,Friedman,"Philadelphia Flyers, Pittsburgh Penguins"
 Mikhail,Vorobyev,Philadelphia Flyers
-Philippe,Myers,"Philadelphia Flyers, Nashville Predators"
+Philippe,Myers,"Philadelphia Flyers, Nashville Predators, Tampa Bay Lightning"
 Carter,Hart,Philadelphia Flyers
-Teddy,Blueger,Pittsburgh Penguins
+Teddy,Blueger,"Pittsburgh Penguins, Vegas Golden Knights"
 Adam,Johnson,Pittsburgh Penguins
 Juuso,Riikola,Pittsburgh Penguins
 Connor,Clifton,Boston Bruins
@@ -7787,14 +7787,14 @@ Jeremy,Lauzon,"Boston Bruins, Nashville Predators, Seattle Kraken"
 Zach,Senyshyn,"Boston Bruins, Ottawa Senators"
 Trent,Frederic,Boston Bruins
 Urho,Vaakanainen,"Boston Bruins, Anaheim Ducks"
-Karson,Kuhlman,"Boston Bruins, Seattle Kraken"
+Karson,Kuhlman,"Boston Bruins, Seattle Kraken, Winnipeg Jets"
 Victor,Olofsson,Buffalo Sabres
 Will,Borgen,"Buffalo Sabres, Seattle Kraken"
 Rasmus,Dahlin,Buffalo Sabres
 Lawrence,Pilut,Buffalo Sabres
-Ryan,Poehling,Montréal Canadiens
+Ryan,Poehling,"Montréal Canadiens, Pittsburgh Penguins"
 Jesperi,Kotkaniemi,"Montréal Canadiens, Carolina Hurricanes"
-Rudolfs,Balcers,"Ottawa Senators, San Jose Sharks"
+Rudolfs,Balcers,"Ottawa Senators, San Jose Sharks, Florida Panthers, Tampa Bay Lightning"
 Max,Lajoie,"Ottawa Senators, Carolina Hurricanes"
 Vitaly,Abramov,Ottawa Senators
 Erik,Brannstrom,Ottawa Senators
@@ -7806,16 +7806,16 @@ Joey,Daccord,"Ottawa Senators, Seattle Kraken"
 Trevor,Moore,"Toronto Maple Leafs, Los Angeles Kings"
 Igor,Ozhiganov,Toronto Maple Leafs
 Par,Lindholm,"Toronto Maple Leafs, Winnipeg Jets, Boston Bruins"
-Saku,Maenalanen,Carolina Hurricanes
+Saku,Maenalanen,"Carolina Hurricanes, Winnipeg Jets"
 Clark,Bishop,"Carolina Hurricanes, Ottawa Senators"
 Jake,Bean,"Carolina Hurricanes, Columbus Blue Jackets"
 Andrei,Svechnikov,Carolina Hurricanes
 Aleksi,Saarela,"Carolina Hurricanes, Florida Panthers"
-Josh,Brown,"Florida Panthers, Ottawa Senators, Boston Bruins"
+Josh,Brown,"Florida Panthers, Ottawa Senators, Boston Bruins, Arizona Coyotes"
 Jayce,Hawryluk,"Florida Panthers, Ottawa Senators, Vancouver Canucks"
 Juho,Lammikko,"Florida Panthers, Vancouver Canucks"
-Riley,Stillman,"Florida Panthers, Chicago Blackhawks"
-Jacob,MacDonald,"Florida Panthers, Colorado Avalanche"
+Riley,Stillman,"Florida Panthers, Chicago Blackhawks, Buffalo Sabres, Vancouver Canucks"
+Jacob,MacDonald,"Florida Panthers, Colorado Avalanche, San Jose Sharks"
 Anthony,Greco,"Florida Panthers, New York Rangers"
 Bogdan,Kiselevich,Florida Panthers
 Brady,Keeper,Florida Panthers
@@ -7826,30 +7826,30 @@ Edward,Pasquale,Tampa Bay Lightning
 Tyler,Lewington,"Washington Capitals, Nashville Predators, Boston Bruins"
 Jonas,Siegenthaler,"Washington Capitals, New Jersey Devils"
 Luke,Johnson,"Chicago Blackhawks, Minnesota Wild"
-Dennis,Gilbert,"Chicago Blackhawks, Colorado Avalanche"
+Dennis,Gilbert,"Chicago Blackhawks, Colorado Avalanche, Calgary Flames"
 Alexandre,Fortin,Chicago Blackhawks
 Henri,Jokiharju,"Chicago Blackhawks, Buffalo Sabres"
 Dominik,Kahun,"Chicago Blackhawks, Pittsburgh Penguins, Buffalo Sabres, Edmonton Oilers"
 Jacob,Nilsson,Chicago Blackhawks
 Jake,Chelios,Detroit Red Wings
 Christoffer,Ehn,Detroit Red Wings
-Dennis,Cholowski,"Detroit Red Wings, Washington Capitals, Seattle Kraken"
-Filip,Hronek,Detroit Red Wings
+Dennis,Cholowski,"Detroit Red Wings, Washington Capitals, Seattle Kraken, New York Islanders"
+Filip,Hronek,"Detroit Red Wings, Vancouver Canucks"
 Michael,Rasmussen,Detroit Red Wings
 Libor,Sulak,Detroit Red Wings
 Filip,Zadina,Detroit Red Wings
 Ryan,Kuffner,Detroit Red Wings
 Taro,Hirose,Detroit Red Wings
 Kaden,Fulcher,Detroit Red Wings
-Colin,Blackwell,"Nashville Predators, New York Rangers, Toronto Maple Leafs, Seattle Kraken"
-Anthony,Richard,Nashville Predators
+Colin,Blackwell,"Nashville Predators, New York Rangers, Toronto Maple Leafs, Seattle Kraken, Chicago Blackhawks"
+Anthony,Richard,"Nashville Predators, Montréal Canadiens"
 Dante,Fabbro,Nashville Predators
 Rem,Pitlick,"Nashville Predators, Montréal Canadiens, Minnesota Wild"
-Mackenzie,MacEachern,St. Louis Blues
+Mackenzie,MacEachern,"St. Louis Blues, Carolina Hurricanes"
 Jordan,Kyrou,St. Louis Blues
 Robert,Thomas,St. Louis Blues
 Dillon,Dube,Calgary Flames
-Juuso,Valimaki,Calgary Flames
+Juuso,Valimaki,"Calgary Flames, Arizona Coyotes"
 Ryan,Graves,"Colorado Avalanche, New Jersey Devils"
 Sheldon,Dries,"Colorado Avalanche, Vancouver Canucks"
 Logan,O'Connor,Colorado Avalanche
@@ -7862,17 +7862,17 @@ Patrick,Russell,Edmonton Oilers
 Joseph,Gambardella,Edmonton Oilers
 Evan,Bouchard,Edmonton Oilers
 Guillaume,Brisebois,Vancouver Canucks
-Zack,MacEwen,"Vancouver Canucks, Philadelphia Flyers"
+Zack,MacEwen,"Vancouver Canucks, Philadelphia Flyers, Los Angeles Kings"
 Elias,Pettersson,Vancouver Canucks
 Quinn,Hughes,Vancouver Canucks
 Josh,Teves,Vancouver Canucks
 Brogan,Rafferty,Vancouver Canucks
 Michael,DiPietro,Vancouver Canucks
-Sam,Steel,Anaheim Ducks
+Sam,Steel,"Anaheim Ducks, Minnesota Wild"
 Max,Jones,Anaheim Ducks
-Josh,Mahura,Anaheim Ducks
+Josh,Mahura,"Anaheim Ducks, Florida Panthers"
 Max,Comtois,Anaheim Ducks
-Kiefer,Sherwood,"Anaheim Ducks, Colorado Avalanche"
+Kiefer,Sherwood,"Anaheim Ducks, Colorado Avalanche, Nashville Predators"
 Isac,Lundestrom,Anaheim Ducks
 Kevin,Boyle,Anaheim Ducks
 Roope,Hintz,Dallas Stars
@@ -7881,30 +7881,30 @@ Gavin,Bayreuther,"Dallas Stars, Columbus Blue Jackets"
 Miro,Heiskanen,Dallas Stars
 Joel,L'Esperance,Dallas Stars
 Landon,Bow,Dallas Stars
-Austin,Wagner,Los Angeles Kings
+Austin,Wagner,"Los Angeles Kings, Chicago Blackhawks"
 Matt,Roy,Los Angeles Kings
 Carl,Grundstrom,Los Angeles Kings
-Matt,Luff,"Los Angeles Kings, Nashville Predators"
+Matt,Luff,"Los Angeles Kings, Nashville Predators, Detroit Red Wings"
 Jaret,Anderson-Dolan,Los Angeles Kings
 Sean,Walker,Los Angeles Kings
-Sheldon,Rempal,"Los Angeles Kings, Carolina Hurricanes, Vancouver Canucks"
+Sheldon,Rempal,"Los Angeles Kings, Carolina Hurricanes, Vancouver Canucks, Vegas Golden Knights"
 Blake,Lizotte,Los Angeles Kings
 Cal,Petersen,Los Angeles Kings
-Rourke,Chartier,San Jose Sharks
+Rourke,Chartier,"San Jose Sharks, Ottawa Senators"
 Jake,Middleton,"San Jose Sharks, Minnesota Wild"
 Radim,Simek,San Jose Sharks
 Lukas,Radil,San Jose Sharks
 Antti,Suomela,San Jose Sharks
-Kevin,Stenlund,Columbus Blue Jackets
+Kevin,Stenlund,"Columbus Blue Jackets, Winnipeg Jets"
 Kole,Sherwood,"Columbus Blue Jackets, Nashville Predators"
 Alexandre,Texier,Columbus Blue Jackets
-Vladislav,Gavrikov,Columbus Blue Jackets
-Nico,Sturm,"Minnesota Wild, Colorado Avalanche"
+Vladislav,Gavrikov,"Columbus Blue Jackets, Los Angeles Kings"
+Nico,Sturm,"Minnesota Wild, Colorado Avalanche, San Jose Sharks"
 Mason,Appleton,"Winnipeg Jets, Seattle Kraken"
 Kristian,Vesalainen,Winnipeg Jets
 Michael,Bunting,"Arizona Coyotes, Toronto Maple Leafs"
 Conor,Garland,"Arizona Coyotes, Vancouver Canucks"
-Ilya,Lyubushkin,"Arizona Coyotes, Toronto Maple Leafs"
+Ilya,Lyubushkin,"Arizona Coyotes, Toronto Maple Leafs, Buffalo Sabres"
 Hunter,Miska,"Arizona Coyotes, Colorado Avalanche"
 Jimmy,Schuldt,Vegas Golden Knights
 Nikita,Gusev,"New Jersey Devils, Florida Panthers"
@@ -7912,12 +7912,12 @@ Jesper,Boqvist,New Jersey Devils
 Jack,Hughes,New Jersey Devils
 Gilles,Senn,New Jersey Devils
 Cole,Bardreau,New York Islanders
-Kieffer,Bellows,New York Islanders
+Kieffer,Bellows,"New York Islanders, Philadelphia Flyers"
 Otto,Koivula,New York Islanders
 Oliver,Wahlstrom,New York Islanders
 Noah,Dobson,New York Islanders
 Adam,Fox,New York Rangers
-Julien,Gauthier,"New York Rangers, Carolina Hurricanes"
+Julien,Gauthier,"New York Rangers, Carolina Hurricanes, Ottawa Senators"
 Kaapo,Kakko,New York Rangers
 Igor,Shesterkin,New York Rangers
 David,Kase,Philadelphia Flyers
@@ -7927,14 +7927,14 @@ German,Rubtsov,Philadelphia Flyers
 Morgan,Frost,Philadelphia Flyers
 Joel,Farabee,Philadelphia Flyers
 Thomas,Di Pauli,Pittsburgh Penguins
-Sam,Lafferty,"Pittsburgh Penguins, Chicago Blackhawks"
+Sam,Lafferty,"Pittsburgh Penguins, Chicago Blackhawks, Toronto Maple Leafs"
 Anthony,Angello,Pittsburgh Penguins
-John,Marino,Pittsburgh Penguins
+John,Marino,"Pittsburgh Penguins, New Jersey Devils"
 Cameron,Hughes,Boston Bruins
-Jack,Studnicka,Boston Bruins
+Jack,Studnicka,"Boston Bruins, Vancouver Canucks"
 Dan,Vladar,"Boston Bruins, Calgary Flames"
 Dalton,Smith,Buffalo Sabres
-Rasmus,Asplund,Buffalo Sabres
+Rasmus,Asplund,"Buffalo Sabres, Nashville Predators"
 Jonas,Johansson,"Buffalo Sabres, Colorado Avalanche, Florida Panthers"
 Jake,Evans,Montréal Canadiens
 Lukas,Vejdemo,Montréal Canadiens
@@ -7947,14 +7947,14 @@ Scott,Sabourin,"Ottawa Senators, Toronto Maple Leafs"
 J.C.,Beaudin,Ottawa Senators
 Josh,Norris,Ottawa Senators
 Jonathan,Davidsson,Ottawa Senators
-Pierre,Engvall,Toronto Maple Leafs
+Pierre,Engvall,"Toronto Maple Leafs, New York Islanders"
 Dmytro,Timashov,"Toronto Maple Leafs, Detroit Red Wings, New York Islanders"
-Mason,Marchment,"Toronto Maple Leafs, Florida Panthers"
+Mason,Marchment,"Toronto Maple Leafs, Florida Panthers, Dallas Stars"
 Adam,Brooks,"Toronto Maple Leafs, Montréal Canadiens, Winnipeg Jets, Vegas Golden Knights"
 Egor,Korshkov,Toronto Maple Leafs
 Timothy,Liljegren,Toronto Maple Leafs
-Rasmus,Sandin,Toronto Maple Leafs
-Ilya,Mikheyev,Toronto Maple Leafs
+Rasmus,Sandin,"Toronto Maple Leafs, Washington Capitals"
+Ilya,Mikheyev,"Toronto Maple Leafs, Vancouver Canucks"
 Nicholas,Robertson,Toronto Maple Leafs
 Kasimir,Kaskisuo,"Toronto Maple Leafs, Nashville Predators"
 Morgan,Geekie,"Carolina Hurricanes, Seattle Kraken"
@@ -7966,25 +7966,25 @@ Alexander,Volkov,"Tampa Bay Lightning, Anaheim Ducks"
 Beck,Malenstyn,Washington Capitals
 Martin,Fehervary,Washington Capitals
 Brian,Pinho,Washington Capitals
-Ilya,Samsonov,Washington Capitals
-Dominik,Kubalik,Chicago Blackhawks
+Ilya,Samsonov,"Washington Capitals, Toronto Maple Leafs"
+Dominik,Kubalik,"Chicago Blackhawks, Detroit Red Wings"
 Lucas,Carlsson,"Chicago Blackhawks, Florida Panthers"
 Brandon,Hagel,"Chicago Blackhawks, Tampa Bay Lightning"
 Nicolas,Beaudin,Chicago Blackhawks
 Adam,Boqvist,"Chicago Blackhawks, Columbus Blue Jackets"
-Kirby,Dach,Chicago Blackhawks
+Kirby,Dach,"Chicago Blackhawks, Montréal Canadiens"
 Anton,Wedin,Chicago Blackhawks
-Givani,Smith,Detroit Red Wings
+Givani,Smith,"Detroit Red Wings, Florida Panthers"
 Gustav,Lindstrom,Detroit Red Wings
 Yakov,Trenin,Nashville Predators
-Mathieu,Olivier,Nashville Predators
+Mathieu,Olivier,"Nashville Predators, Columbus Blue Jackets"
 Jake,Walman,"St. Louis Blues, Detroit Red Wings"
 Austin,Poganski,"St. Louis Blues, Winnipeg Jets"
-Niko,Mikkola,St. Louis Blues
-Klim,Kostin,St. Louis Blues
+Niko,Mikkola,"St. Louis Blues, New York Rangers"
+Klim,Kostin,"St. Louis Blues, Edmonton Oilers"
 Alexander,Yelesin,Calgary Flames
-Conor,Timmins,"Colorado Avalanche, Arizona Coyotes"
-Martin,Kaut,Colorado Avalanche
+Conor,Timmins,"Colorado Avalanche, Arizona Coyotes, Toronto Maple Leafs"
+Martin,Kaut,"Colorado Avalanche, San Jose Sharks"
 Adam,Werner,Colorado Avalanche
 William,Lagesson,"Edmonton Oilers, Montréal Canadiens"
 Tyler,Benson,Edmonton Oilers
@@ -8000,7 +8000,7 @@ Joel,Kiviranta,Dallas Stars
 Thomas,Harley,Dallas Stars
 Jake,Oettinger,Dallas Stars
 Nikolai,Prokhorkin,Los Angeles Kings
-Kale,Clague,"Los Angeles Kings, Montréal Canadiens"
+Kale,Clague,"Los Angeles Kings, Montréal Canadiens, Buffalo Sabres"
 Mikey,Anderson,Los Angeles Kings
 Gabriel,Vilardi,Los Angeles Kings
 Tobias,Bjornfot,Los Angeles Kings
@@ -8024,14 +8024,14 @@ Matiss,Kivlenieks,Columbus Blue Jackets
 Brennan,Menell,Minnesota Wild
 Gerry,Mayhew,"Minnesota Wild, Philadelphia Flyers, Anaheim Ducks"
 Kaapo,Kahkonen,"Minnesota Wild, San Jose Sharks"
-CJ,Suess,Winnipeg Jets
+CJ,Suess,"Winnipeg Jets, San Jose Sharks"
 Jansen,Harkins,Winnipeg Jets
 David,Gustafsson,Winnipeg Jets
 Ville,Heinola,Winnipeg Jets
 Andrei,Chibisov,Winnipeg Jets
-Joona,Luoto,Winnipeg Jets
+Joona,Luoto,"Winnipeg Jets, Columbus Blue Jackets"
 Barrett,Hayton,Arizona Coyotes
-Jordan,Gross,"Arizona Coyotes, Colorado Avalanche"
+Jordan,Gross,"Arizona Coyotes, Colorado Avalanche, Nashville Predators"
 Jake,Bischoff,Vegas Golden Knights
 Keegan,Kolesar,Vegas Golden Knights
 Gage,Quinney,Vegas Golden Knights
@@ -8040,7 +8040,7 @@ Cody,Glass,"Vegas Golden Knights, Nashville Predators"
 Mikhail,Maltsev,"New Jersey Devils, Colorado Avalanche"
 Marián,Studenič,"New Jersey Devils, Dallas Stars"
 Kevin,Bahl,New Jersey Devils
-Ty,Smith,New Jersey Devils
+Ty,Smith,"New Jersey Devils, Pittsburgh Penguins"
 Yegor,Sharangovich,New Jersey Devils
 Nolan,Foote,New Jersey Devils
 Tyce,Thompson,New Jersey Devils
@@ -8048,10 +8048,10 @@ Ilya,Sorokin,New York Islanders
 Tarmo,Reunanen,New York Rangers
 Morgan,Barron,"New York Rangers, Winnipeg Jets"
 K'Andre,Miller,New York Rangers
-Vitali,Kravtsov,New York Rangers
+Vitali,Kravtsov,"New York Rangers, Vancouver Canucks"
 Zac,Jones,New York Rangers
 Alexis,Lafrenière,New York Rangers
-Justin,Richards,New York Rangers
+Justin,Richards,"New York Rangers, Columbus Blue Jackets"
 Wade,Allison,Philadelphia Flyers
 Tanner,Laczynski,Philadelphia Flyers
 Maksim,Sushko,Philadelphia Flyers
@@ -8060,7 +8060,7 @@ Cam,York,Philadelphia Flyers
 Jackson,Cates,Philadelphia Flyers
 Pierre-Olivier,Joseph,Pittsburgh Penguins
 Drew,O'Connor,Pittsburgh Penguins
-Radim,Zohorna,Pittsburgh Penguins
+Radim,Zohorna,"Pittsburgh Penguins, Toronto Maple Leafs, Calgary Flames"
 Oskar,Steen,Boston Bruins
 Jack,Ahcan,Boston Bruins
 Jeremy,Swayman,Boston Bruins
@@ -8071,7 +8071,7 @@ Dylan,Cozens,Buffalo Sabres
 Arttu,Ruotsalainen,Buffalo Sabres
 Michael,Houser,Buffalo Sabres
 Ukko-Pekka,Luukkonen,Buffalo Sabres
-Alexander,Romanov,Montréal Canadiens
+Alexander,Romanov,"Montréal Canadiens, New York Islanders"
 Jesse,Ylonen,Montréal Canadiens
 Cole,Caufield,Montréal Canadiens
 Parker,Kelly,Ottawa Senators
@@ -8080,10 +8080,10 @@ Shane,Pinto,Ottawa Senators
 Olle,Alsing,Ottawa Senators
 Tim,Stützle,Ottawa Senators
 Artem,Zub,Ottawa Senators
-Filip,Gustavsson,Ottawa Senators
+Filip,Gustavsson,"Ottawa Senators, Minnesota Wild"
 Alexander,Barabanov,"Toronto Maple Leafs, San Jose Sharks"
 Mikko,Lehtonen,"Toronto Maple Leafs, Columbus Blue Jackets"
-Steven,Lorentz,Carolina Hurricanes
+Steven,Lorentz,"Carolina Hurricanes, San Jose Sharks"
 Joey,Keane,Carolina Hurricanes
 Aleksi,Heponiemi,Florida Panthers
 Grigori,Denisenko,Florida Panthers
@@ -8093,11 +8093,11 @@ Ben,Thomas,Tampa Bay Lightning
 Daniel,Walcott,Tampa Bay Lightning
 Ross,Colton,Tampa Bay Lightning
 Alex,Barré-Boulet,"Tampa Bay Lightning, Seattle Kraken"
-Cal,Foote,Tampa Bay Lightning
+Cal,Foote,"Tampa Bay Lightning, Nashville Predators"
 Philippe,Maillet,Washington Capitals
 Garrett,Pilon,Washington Capitals
 Connor,McMichael,Washington Capitals
-Vitek,Vanecek,Washington Capitals
+Vitek,Vanecek,"Washington Capitals, New Jersey Devils"
 MacKenzie,Entwistle,Chicago Blackhawks
 Ian,Mitchell,Chicago Blackhawks
 Wyatt,Kalynuk,Chicago Blackhawks
@@ -8106,20 +8106,20 @@ Philipp,Kurashev,Chicago Blackhawks
 Alec,Regula,Chicago Blackhawks
 Reese,Johnson,Chicago Blackhawks
 Mike,Hardman,Chicago Blackhawks
-Kevin,Lankinen,Chicago Blackhawks
+Kevin,Lankinen,"Chicago Blackhawks, Nashville Predators"
 Joe,Veleno,Detroit Red Wings
 Mathias,Brome,Detroit Red Wings
-Frederic,Allard,Nashville Predators
-Jeremy,Davies,Nashville Predators
-Tanner,Jeannot,Nashville Predators
+Frederic,Allard,"Nashville Predators, Montréal Canadiens"
+Jeremy,Davies,"Nashville Predators, Buffalo Sabres"
+Tanner,Jeannot,"Nashville Predators, Tampa Bay Lightning"
 David,Farrance,Nashville Predators
 Cole,Smith,Nashville Predators
-Dakota,Joshua,St. Louis Blues
-Ville,Husso,St. Louis Blues
-Glenn,Gawdin,Calgary Flames
+Dakota,Joshua,"St. Louis Blues, Vancouver Canucks"
+Ville,Husso,"St. Louis Blues, Detroit Red Wings"
+Glenn,Gawdin,"Calgary Flames, Anaheim Ducks"
 Matthew,Phillips,Calgary Flames
 Adam,Ruzicka,Calgary Flames
-Connor,Mackey,Calgary Flames
+Connor,Mackey,"Calgary Flames, Arizona Coyotes"
 Artyom,Zagidulin,Calgary Flames
 Kyle,Burroughs,"Colorado Avalanche, Vancouver Canucks"
 Keaton,Middleton,Colorado Avalanche
@@ -8140,7 +8140,7 @@ Trevor,Zegras,Anaheim Ducks
 Jamie,Drysdale,Anaheim Ducks
 Ty,Dellandrea,Dallas Stars
 Drake,Rymsha,Los Angeles Kings
-Austin,Strand,Los Angeles Kings
+Austin,Strand,"Los Angeles Kings, Anaheim Ducks"
 Rasmus,Kupari,Los Angeles Kings
 Arthur,Kaliyev,Los Angeles Kings
 Quinton,Byfield,Los Angeles Kings
@@ -8148,7 +8148,7 @@ Nicolas,Meloche,San Jose Sharks
 Jeffrey,Viel,San Jose Sharks
 Sasha,Chmelevski,San Jose Sharks
 Ivan,Chekhovich,San Jose Sharks
-John,Leonard,San Jose Sharks
+John,Leonard,"San Jose Sharks, Nashville Predators"
 Fredrik,Handemark,San Jose Sharks
 Brinson,Pasichnuk,San Jose Sharks
 Josef,Korenar,"San Jose Sharks, Arizona Coyotes"
@@ -8158,16 +8158,16 @@ Veini,Vehvilainen,Columbus Blue Jackets
 Kirill,Kaprizov,Minnesota Wild
 Calen,Addison,Minnesota Wild
 Logan,Stanley,Winnipeg Jets
-Lane,Pederson,"Arizona Coyotes, San Jose Sharks"
+Lane,Pederson,"Arizona Coyotes, San Jose Sharks, Vancouver Canucks, Columbus Blue Jackets"
 Jan,Jenik,Arizona Coyotes
 Victor,Soderstrom,Arizona Coyotes
 Ivan,Prosvetov,Arizona Coyotes
-Dylan,Coghlan,Vegas Golden Knights
+Dylan,Coghlan,"Vegas Golden Knights, Carolina Hurricanes"
 Peyton,Krebs,"Vegas Golden Knights, Buffalo Sabres"
 Logan,Thompson,Vegas Golden Knights
 Mason,Geertsen,New Jersey Devils
 Reilly,Walsh,New Jersey Devils
-Fabian,Zetterlund,New Jersey Devils
+Fabian,Zetterlund,"New Jersey Devils, San Jose Sharks"
 Nikita,Okhotiuk,New Jersey Devils
 Dawson,Mercer,New Jersey Devils
 Alexander,Holtz,New Jersey Devils
@@ -8175,7 +8175,7 @@ Akira,Schmid,New Jersey Devils
 Nico,Daws,New Jersey Devils
 Robin,Salo,New York Islanders
 Grant,Hutton,New York Islanders
-Nils,Lundkvist,New York Rangers
+Nils,Lundkvist,"New York Rangers, Dallas Stars"
 Braden,Schneider,New York Rangers
 Adam,Huska,New York Rangers
 Max,Willman,Philadelphia Flyers
@@ -8190,10 +8190,10 @@ Felix,Sandstrom,Philadelphia Flyers
 Kasper,Bjorkqvist,Pittsburgh Penguins
 Filip,Hallander,Pittsburgh Penguins
 Valtteri,Puustinen,Pittsburgh Penguins
-Jesper,Froden,Boston Bruins
+Jesper,Froden,"Boston Bruins, Seattle Kraken"
 Marc,McLaughlin,Boston Bruins
 Ethan,Prow,Buffalo Sabres
-Casey,Fitzgerald,Buffalo Sabres
+Casey,Fitzgerald,"Buffalo Sabres, Florida Panthers"
 Brandon,Biro,Buffalo Sabres
 Jack,Quinn,Buffalo Sabres
 JJ,Peterka,Buffalo Sabres
@@ -8233,10 +8233,10 @@ Sean,Day,Tampa Bay Lightning
 Gabriel,Fortier,Tampa Bay Lightning
 Hugo,Alnefelt,Tampa Bay Lightning
 Lucas,Johansen,Washington Capitals
-Axel,Jonsson-Fjallby,Washington Capitals
+Axel,Jonsson-Fjallby,"Washington Capitals, Winnipeg Jets"
 Alexander,Alexeyev,Washington Capitals
 Joe,Snively,Washington Capitals
-Brett,Leason,Washington Capitals
+Brett,Leason,"Washington Capitals, Anaheim Ducks"
 Aliaksei,Protas,Washington Capitals
 Hendrix,Lapierre,Washington Capitals
 Zach,Fucale,Washington Capitals
@@ -8251,7 +8251,7 @@ Moritz,Seider,Detroit Red Wings
 Lucas,Raymond,Detroit Red Wings
 Tommy,Novak,Nashville Predators
 Philip,Tomasino,Nashville Predators
-Connor,Ingram,Nashville Predators
+Connor,Ingram,"Nashville Predators, Arizona Coyotes"
 Alexey,Toropchenko,St. Louis Blues
 Scott,Perunovich,St. Louis Blues
 Jake,Neighbours,St. Louis Blues
@@ -8260,7 +8260,7 @@ Walker,Duehr,Calgary Flames
 Ben,Meyers,Colorado Avalanche
 Justus,Annunen,Colorado Avalanche
 Markus,Niemelainen,Edmonton Oilers
-Dmitri,Samorukov,Edmonton Oilers
+Dmitri,Samorukov,"Edmonton Oilers, St. Louis Blues"
 Philip,Broberg,Edmonton Oilers
 Dylan,Holloway,Edmonton Oilers
 Vasily,Podkolzin,Vancouver Canucks
@@ -8274,7 +8274,7 @@ Thomas,Hodges,Anaheim Ducks
 Lukas,Dostal,Anaheim Ducks
 Riley,Tufte,Dallas Stars
 Fredrik,Karlström,Dallas Stars
-Jacob,Peterson,Dallas Stars
+Jacob,Peterson,"Dallas Stars, San Jose Sharks"
 Riley,Damiani,Dallas Stars
 Vladimir,Tkachev,Los Angeles Kings
 Jacob,Moverare,Los Angeles Kings
@@ -8311,9 +8311,9 @@ Adam,Beckman,Minnesota Wild
 Matt,Boldy,Minnesota Wild
 Mitchell,Chaffee,Minnesota Wild
 Marco,Rossi,Minnesota Wild
-Michael,Eyssimont,Winnipeg Jets
+Michael,Eyssimont,"Winnipeg Jets, Tampa Bay Lightning, San Jose Sharks"
 Dylan,Samberg,Winnipeg Jets
-Johnathan,Kovacevic,Winnipeg Jets
+Johnathan,Kovacevic,"Winnipeg Jets, Montréal Canadiens"
 Kristian,Reichel,Winnipeg Jets
 Declan,Chisholm,Winnipeg Jets
 Cole,Perfetti,Winnipeg Jets
@@ -8329,7 +8329,7 @@ Matias,Maccelli,Arizona Coyotes
 Ben,McCartney,Arizona Coyotes
 J.J.,Moser,Arizona Coyotes
 Karel,Vejmelka,Arizona Coyotes
-Jake,Leschyshyn,Vegas Golden Knights
+Jake,Leschyshyn,"Vegas Golden Knights, New York Rangers"
 Jonas,Rondbjerg,Vegas Golden Knights
 Ben,Jones,Vegas Golden Knights
 Paul,Cotter,Vegas Golden Knights
@@ -8339,3 +8339,123 @@ Pavel,Dorofeyev,Vegas Golden Knights
 Zack,Hayes,Vegas Golden Knights
 Daniil,Miromanov,Vegas Golden Knights
 Matty,Beniers,Seattle Kraken
+Luke,Hughes,New Jersey Devils
+Parker,Wotherspoon,New York Islanders
+Arnaud,Durandeau,New York Islanders
+Samuel,Bolduc,New York Islanders
+Simon,Holmstrom,New York Islanders
+William,Dufour,New York Islanders
+Aatu,Raty,"New York Islanders, Vancouver Canucks"
+Will,Cuylle,New York Rangers
+Olle,Lycksell,Philadelphia Flyers
+Adam,Ginning,Philadelphia Flyers
+Tyson,Foerster,Philadelphia Flyers
+Elliot,Desnoyers,Philadelphia Flyers
+Samuel,Ersson,Philadelphia Flyers
+Jonathan,Gruden,Pittsburgh Penguins
+Sam,Poulin,Pittsburgh Penguins
+Joona,Koppanen,Boston Bruins
+Jakub,Lauko,Boston Bruins
+Lukas,Rousek,Buffalo Sabres
+Devon,Levi,Buffalo Sabres
+Joel,Teasdale,Montréal Canadiens
+Sean,Farrell,Montréal Canadiens
+Kaiden,Guhle,Montréal Canadiens
+Arber,Xhekaj,Montréal Canadiens
+Owen,Beck,Montréal Canadiens
+Juraj,Slafkovsky,Montréal Canadiens
+Lucas,Condotta,Montréal Canadiens
+Jacob,Lucchini,Ottawa Senators
+Maxence,Guenette,Ottawa Senators
+Ridly,Greig,Ottawa Senators
+Tyler,Kleven,Ottawa Senators
+Jake,Sanderson,Ottawa Senators
+Kevin,Mandolese,Ottawa Senators
+Leevi,Merilainen,Ottawa Senators
+Mac,Hollowell,Toronto Maple Leafs
+Filip,Kral,Toronto Maple Leafs
+Semyon,Der-Arguchintsev,Toronto Maple Leafs
+Pontus,Holmberg,Toronto Maple Leafs
+Bobby,McMann,Toronto Maple Leafs
+Matthew,Knies,Toronto Maple Leafs
+Jett,Alexander,Toronto Maple Leafs
+Anton,Levtchi,Florida Panthers
+Nick,Perbix,Tampa Bay Lightning
+Cole,Koepke,Tampa Bay Lightning
+Vincent,Iorio,Washington Capitals
+Luke,Philp,Chicago Blackhawks
+Cole,Guttman,Chicago Blackhawks
+David,Gust,Chicago Blackhawks
+Wyatt,Kaiser,Chicago Blackhawks
+Filip,Roos,Chicago Blackhawks
+Dylan,Wells,Chicago Blackhawks
+Jaxson,Stauber,Chicago Blackhawks
+Jonatan,Berggren,Detroit Red Wings
+Elmer,Soderblom,Detroit Red Wings
+Simon,Edvinsson,Detroit Red Wings
+Marco,Kasper,Detroit Red Wings
+Spencer,Stastney,Nashville Predators
+Egor,Afanasyev,Nashville Predators
+Juuso,Parssinen,Nashville Predators
+Luke,Evangelista,Nashville Predators
+Jake,Livingstone,Nashville Predators
+Yaroslav,Askarov,Nashville Predators
+William,Bitten,St. Louis Blues
+Tyler,Tucker,St. Louis Blues
+Hugh,McGing,St. Louis Blues
+Nikita,Alexandrov,St. Louis Blues
+Matthew,Kessel,St. Louis Blues
+Nick,DeSimone,Calgary Flames
+Jakob,Pelletier,Calgary Flames
+Matt,Coronato,Calgary Flames
+Dustin,Wolf,Calgary Flames
+Shane,Bowers,Colorado Avalanche
+Jean-Luc,Foudy,Colorado Avalanche
+Callahan,Burke,Colorado Avalanche
+Oskar,Olausson,Colorado Avalanche
+Vincent,Desharnais,Edmonton Oilers
+James,Hamblin,Edmonton Oilers
+Matthew,Berlin,Edmonton Oilers
+Aidan,McDonough,Vancouver Canucks
+Nils,Aman,Vancouver Canucks
+Andrei,Kuzmenko,Vancouver Canucks
+Akito,Hirose,Vancouver Canucks
+Cole,McWard,Vancouver Canucks
+Arturs,Silovs,Vancouver Canucks
+Justin,Kirkland,Anaheim Ducks
+Drew,Helleson,Anaheim Ducks
+Jackson,LaCombe,Anaheim Ducks
+Nikita,Nesterenko,Anaheim Ducks
+Pavol,Regenda,Anaheim Ducks
+Olle,Eriksson Ek,Anaheim Ducks
+Fredrik,Olofsson,Dallas Stars
+Matej,Blumel,Dallas Stars
+Wyatt,Johnston,Dallas Stars
+Matt,Murray,Dallas Stars
+Brandt,Clarke,Los Angeles Kings
+Henry,Thrun,San Jose Sharks
+Danil,Gushchin,San Jose Sharks
+Tristen,Robins,San Jose Sharks
+Nick,Cicek,San Jose Sharks
+Eetu,Makiniemi,San Jose Sharks
+Kirill,Marchenko,Columbus Blue Jackets
+Tim,Berni,Columbus Blue Jackets
+Tyler,Angle,Columbus Blue Jackets
+Billy,Sweezey,Columbus Blue Jackets
+Samuel,Knazko,Columbus Blue Jackets
+Mikael,Pyyhtia,Columbus Blue Jackets
+Stanislav,Svozil,Columbus Blue Jackets
+David,Jiricek,Columbus Blue Jackets
+Marcus,Bjork,Columbus Blue Jackets
+Hunter,McKown,Columbus Blue Jackets
+Jet,Greaves,Columbus Blue Jackets
+Sammy,Walker,Minnesota Wild
+Nick,Swaney,Minnesota Wild
+Damien,Giroux,Minnesota Wild
+Brock,Faber,Minnesota Wild
+Michael,Kesselring,Arizona Coyotes
+Dylan,Guenther,Arizona Coyotes
+Milos,Kelemen,Arizona Coyotes
+Jiri,Patera,Vegas Golden Knights
+Shane,Wright,Seattle Kraken
+Tye,Kartye,Seattle Kraken
