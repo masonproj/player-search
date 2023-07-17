@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
+import { useTable, useSortBy, usePagination } from 'react-table';
+import './../styles/CSVParser.css';
 
 const CSVParser = () => {
   const [csvData, setCSVData] = useState([]);
@@ -175,9 +177,9 @@ const CSVParser = () => {
           </form>
 
           <h2 className="text-2xl font-bold mb-2">Filter by Team Name</h2>
-          <div className="flex flex-wrap">
+          <div className="checkbox-grid">
             {teamOptionsList.map((team, index) => (
-              <label key={index} className="flex items-center mr-4 mb-2">
+              <label key={index} className="checkbox-label">
                 <input
                   type="checkbox"
                   name="team"
@@ -190,20 +192,111 @@ const CSVParser = () => {
             ))}
           </div>
 
-          {(selectedTeams.length > 0 || firstName || filteredData.length > 0) ? (
+          {filteredData.length > 0 && (
             <div>
               <h2 className="text-2xl font-bold mb-2">Filtered Results:</h2>
-              <ul className="list-disc ml-8">
-                {filteredData.map((row, index) => (
-                  <li key={index}>
-                    {`${row.FIRST_NAME} ${row.LAST_NAME} - ${row.TEAMS}`}
-                  </li>
-                ))}
-              </ul>
+              <Table
+                columns={[
+                  { Header: 'First Name', accessor: 'FIRST_NAME' },
+                  { Header: 'Last Name', accessor: 'LAST_NAME' },
+                  { Header: 'Teams', accessor: 'TEAMS' },
+                ]}
+                data={filteredData}
+              />
             </div>
-          ) : null}
+          )}
         </div>
       )}
+    </div>
+  );
+};
+
+const Table = ({ columns, data }) => {
+  const {
+    getTableProps,
+    getTableBodyProps,
+    headerGroups,
+    prepareRow,
+    page,
+    canPreviousPage,
+    canNextPage,
+    pageOptions,
+    pageCount,
+    gotoPage,
+    nextPage,
+    previousPage,
+    state: { pageIndex },
+  } = useTable(
+    {
+      columns,
+      data,
+      initialState: { pageIndex: 0, pageSize: 10 }, // Set the page size (number of items per page)
+    },
+    useSortBy,
+    usePagination
+  );
+
+  return (
+    <div className="table-container">
+      <table {...getTableProps()} className="player-table">
+        {/* Table header */}
+        <thead>
+          {headerGroups.map((headerGroup) => (
+            <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map((column) => (
+                <th {...column.getHeaderProps(column.getSortByToggleProps())}>
+                  {column.render('Header')}
+                  <span>
+                    {column.isSorted
+                      ? column.isSortedDesc
+                        ? ' 🔽'
+                        : ' 🔼'
+                      : ''}
+                  </span>
+                </th>
+              ))}
+            </tr>
+          ))}
+        </thead>
+
+        {/* Table body */}
+        <tbody {...getTableBodyProps()}>
+          {page.map((row) => {
+            prepareRow(row);
+            return (
+              <tr {...row.getRowProps()}>
+                {row.cells.map((cell) => {
+                  return (
+                    <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+
+      {/* Pagination */}
+      <div className="pagination">
+        <button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
+          {'<<'}
+        </button>
+        <button onClick={() => previousPage()} disabled={!canPreviousPage}>
+          {'<'}
+        </button>
+        <button onClick={() => nextPage()} disabled={!canNextPage}>
+          {'>'}
+        </button>
+        <button onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>
+          {'>>'}
+        </button>
+        <span>
+          Page{' '}
+          <strong>
+            {pageIndex + 1} of {pageOptions.length}
+          </strong>
+        </span>
+      </div>
     </div>
   );
 };
