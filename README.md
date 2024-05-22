@@ -30,7 +30,7 @@ The idea for this project was inspired by the requests from members of the hocke
 
 - `src/components`: Contains the reusable components used in the application.
 - `src/pages`: Contains the main pages of the application.
-- `src/csvParser.js`: Contains utility functions for parsing the CSV file and filtering the player data.
+- `src/pages/CSVParser.js`: Contains utility functions for parsing the CSV file and filtering the player data.
 - `static`: The folder where you can place your CSV file.
 
 ## Dependencies
