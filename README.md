@@ -6,7 +6,7 @@ The idea for this project was inspired by the requests from members of the hocke
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/player-search.git`
+1. Clone the repository: `git clone https://github.com/masonproj/player-search.git`
 2. Navigate to the project directory: `cd player-search`
 3. Install dependencies: `npm install`
 
